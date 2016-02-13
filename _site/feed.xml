@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000//feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000//" />
-<updated>2016-02-13T16:26:38-02:00</updated>
+<updated>2016-02-13T18:00:21-02:00</updated>
 <id>http://localhost:4000//</id>
 <author>
   <name>Papo de Cloud</name>
@@ -18,8 +18,8 @@
 
 <entry>
   <title type="html"><![CDATA[O que é Cloud Computing?]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000//articles/teste"/>
-  <id>http://localhost:4000//articles/teste</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000//articles/o-que-e-cloud-computing"/>
+  <id>http://localhost:4000//articles/o-que-e-cloud-computing</id>
   <published>2016-02-13T00:00:00-02:00</published>
   <updated>2016-02-14T00:00:00-00:00</updated>
   
@@ -31,106 +31,40 @@
   <category scheme="http://localhost:4000//tags/#sample%20post" term="sample post" />
   <content type="html">
   
-    &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+    &lt;p&gt;Há algum tempo, profissionais da área de TI estão utilizando com uma frequência cada vez maior o termo &lt;em&gt;Cloud Computing&lt;/em&gt;. Mas o que isto significa? De onde vem essa nuvem? Será que vai chover? Calma! O objetivo deste post é justamente explicar o que é, de onde veio e para que serve Cloud Computing ou, utilizando o termo em português, Computação em Nuvem.&lt;/p&gt;
 
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+&lt;p&gt;Para que possamos descrever o que é Cloud Computing, precisamos primeiro entender alguns conceitos simples sobre a evolução das arquiteturas de sistemas de computação, portanto vamos à história!&lt;/p&gt;
 
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+&lt;p&gt;Por volta dos anos 50, quando os primeiros computadores foram criados, toda a capacidade de processamento de dados ficava em um único dispositivo. Estes dispositivos eram grandes computadores, responsáveis por processar todas as informações e realizar os cálculos e tarefas necessárias chamados de Mainframes. A estes computadores, eram adicionados terminais burros que permitiam que os usuários da época interagissem com o Mainframe e solicitassem a execução de suas atividades. Um terminal burro nada mais é do que uma interface para comunicação com o sistema que realiza o processamento dos dados.&lt;/p&gt;
 
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
+&lt;p&gt;Eis que no ano de 1960, surge um projeto denominado ARPANet. A ARPANet, Advanced Research Projects Agency Network - ou em português Rede da Agência de Pesquisas em Projetos Avançados, considerada a mãe da internet, era uma rede que interligava bases militares e departamentos de pesquisa dos Estados Unidos e foi financiada pelo governo dos EUA durante a Guerra Fria afim de permitir a transmissão de dados entre as partes.&lt;/p&gt;
 
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
+&lt;p&gt;Iniciamente, a ARPANet utilizava um protocolo denominado Network Control Protocol (NCP), porém mais tarde passou a utilizar o protocolo TCP/IP - que utilizamos até hoje.&lt;/p&gt;
 
-&lt;p&gt;Testando aqui a parada toda. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
+&lt;p&gt;Nos anos 70, após o surgimento das redes de computadores e daquilo que viria ser a internet, surge um novo modelo denominado Client-Server (ou Cliente-Servidor). Este novo modelo permitia a utilização de clientes, invés de terminais burros. Estes clientes eram computadores com menor poder de processamento do que os Mainframes de antigamente, e que podiam executar tarefas menores porém, através da rede, interagiam com servidores para a execução de tarefas específicas. O modelo client-server é utilizado até hoje na maior parte das empresas. Exemplos de situações em que utilizamos o modelo client-server é compartilhar uma planilha em um servidor de armazenamento para que outras pessoas possam ter acesso aos arquivos, ou publicar um site em um servidor web.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
+  &lt;p&gt;É importante observar, que ainda hoje tanto Mainframes, quanto soluções client-server são utilizadas, dependendo do caso. Bancos por exemplo, são grandes utilizadores de Mainframes para suas necessidades!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
+&lt;p&gt;A medida que as tecnologias e conceitos de redes de computadores passaram a evoluir, diversos dispositivos com diferentes finalidades foram fabricados e passaram a fazer parte do ecossistema das redes de computadores. Como podemos ver a seguir, desenhos de topologias de redes passaram a ficar cada vez mais complexos e com mais itens a serem acrescentados. Em 1995, começam a surgir desenhos de redes de computadores onde nuvens eram utilizadas para substituir componentes e camadas de redes, facilitando o entendimento das topologias e cenários para usuários não técnicos.&lt;/p&gt;
 
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
+&lt;p&gt;Sendo assim, computação em nuvem é apenas a utilização de desenhos de nuvens em topologias de rede afim de facilitar o entendimento dos desenhos e permitir que os desenhos fiquem mais bonitos e menos poluídos?  Não!&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;O conceito de computação em nuvem, consiste basicamente na junção dos modelos de Mainframe e Client-Server com a utilização da Internet.&lt;/p&gt;
 
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
+&lt;p&gt;Para ilustrar melhor, pense no Gmail. Você provavelmente tem (ou teve) uma conta de email no Gmail. Todas as vezes que você recebe ou envia um email, todo o processamento necessário para envio, recebimento e armazenamento está com o Google certo? Basicamente como os Mainframes dos anos 50. No entanto, para acessar estes serviços, você utiliza o seu computador como um client, correto? Da mesma forma que o modelo client-server.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Em outras palavras, quando falamos de computação em nuvem, estamos nos referindo a remover a execução de determinadas tarefas computacionais de nosso ambiente local (seja a empresa em que trabalhamos ou até mesmo tarefas pessoais, como o armazenamento do texto deste artigo) e utilizar a infra-estrutura de determinados provedores para tais atividades.&lt;/p&gt;
 
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Outro ponto importante da computação em nuvem, é que ela deve funcionar como um serviço para você ou sua empresa. Para exemplificar ainda mais: você consome energia elétrica, certo? E você paga pela energia elétrica que você consumiu, correto? No entanto, você não precisa se preocupar em gerar esta energia elétrica, ou em manter toda a infra-estrutura necessária que envolve redes de transmissão, hidrelétricas, e todos os demais componentes. Você simplesmente conecta seu computador na tomada e ele funciona. Quando falamos na compra de energia elétrica, estamos falando sobre a contratação de um serviço, pelo qual você paga de acordo com o uso. Cloud Computing funciona da mesma forma. Você não precisa se preocupar com a manutenção dos servidores, o storage, a rede, o link de acesso a internet para estes servidores, o datacenter em que eles ficam, o ar condicionado necessário para que eles funcionem adequadamente ou até mesmo com os dispositivos de segurança contra incêndio necessários. Você apenas cria sua conta no Gmail e o Google toma conta de tudo isso para você.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;large-12 columns&quot;&gt;
-        &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th width=&quot;200&quot;&gt;Table Header&lt;/th&gt;
-      &lt;th&gt;Table Header&lt;/th&gt;
-      &lt;th width=&quot;150&quot;&gt;Table Header&lt;/th&gt;
-      &lt;th width=&quot;150&quot;&gt;Table Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-      &lt;td&gt;This is longer content Donec id elit non mi porta gravida at eget metus.&lt;/td&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-      &lt;td&gt;This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.&lt;/td&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-      &lt;td&gt;This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.&lt;/td&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-      &lt;td&gt;Content Goes Here&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;O Gmail é um bom exemplo da utilização de Cloud Computing, porém não é o único. Existem inúmeras soluções de softwares pagas e gratuitas em nuvem. Para citar alguns exemplos, temos a SalesForce, Netflix, iCloud, Dropbox, além de muitas outras aplicações para as mais variadas finalidades.&lt;/p&gt;
 
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;button&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Default Button&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ainda existem diversos pontos a serem explorados quando falamos sobre Cloud Computing. Entre eles ainda temos os diferentes tipos de Cloud (pública, privada, híbrida) e os diferentes modelos (SaaS, IaaS, Paas), mas estes ficam para os próximos posts.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000//articles/teste&quot;&gt;O que é Cloud Computing?&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000/&quot;&gt;Tudo sobre Cloud Computing em um só lugar!&lt;/a&gt; on February 13, 2016.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000//articles/o-que-e-cloud-computing&quot;&gt;O que é Cloud Computing?&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000/&quot;&gt;Tudo sobre Cloud Computing em um só lugar!&lt;/a&gt; on February 13, 2016.&lt;/p&gt;</content>
 </entry>
 
 
