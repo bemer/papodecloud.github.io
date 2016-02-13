@@ -5,8 +5,52 @@
                             <img src="{{site.url}}/images/{{ page.writer.avatar }}" class="notepad-post-author-avatar" alt="{{ page.writer.name }}'s photo">
 
 
-                            <span class="author-label">Autor</span>
+                            <span class="author-label">Sobre o autor</span>
                             <h1>{{ page.writer.name }}</h1>
+                            <div class="social-icons" align="left">
+
+                                {% if page.writer.twitter %}
+                                <a href="http://twitter.com/{{ page.writer.twitter }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                        <i class="fa fa-twitter fa-stack-1x"></i>
+                                    </span>
+                                </a>
+                                {% endif %}
+                                {% if page.writer.google_plus %}
+                                <a href="{{ page.writer.google_plus }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                        <i class="fa fa-google-plus fa-stack-1x"></i>
+                                    </span>
+                                </a>
+                                {% endif %}
+                                {% if page.writer.instagram %}
+                                <a href="http://instagram.com/{{ page.writer.instagram }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                        <i class="fa fa-instagram fa-stack-1x"></i>
+                                    </span>
+                                </a>
+                                {% endif %}
+                                {% if page.writer.github %}
+                                <a href="http://github.com/{{ page.writer.github }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                        <i class="fa fa-github fa-stack-1x"></i>
+                                    </span>
+                                </a>
+                                {% endif %}
+                                {% if page.writer.facebook %}
+                                <a href="http://facebook.com/{{ page.writer.facebook }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                        <i class="fa fa-facebook fa-stack-1x"></i>
+                                    </span>
+                                </a>
+                                {% endif %}
+                            </div>
+
 
 
                             <p><a href="mailto:{{ page.writer.email }}" class="author-website">{{ page.writer.email }}</a></p>
@@ -15,5 +59,8 @@
                             <p>{{ page.writer.description }}</p>
 
                     </section>
+
                 </div>
+
+
             </div>
