@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000//feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000//" />
-<updated>2016-02-13T16:06:43-02:00</updated>
+<updated>2016-02-13T16:11:49-02:00</updated>
 <id>http://localhost:4000//</id>
 <author>
   <name>Papo de Cloud</name>
@@ -118,14 +118,14 @@
 &lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
 
-&lt;p&gt;Make any link standout more when applying the &lt;code&gt;button&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;button&lt;/code&gt; class.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Default Button&lt;/a&gt;&lt;/p&gt;
 
@@ -202,8 +202,9 @@ Font Awesome
 Disqus comments integration
 You can set post image covers by using only Ghost narkdown editor just place something like this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;![cover-image](http://path-to-your-image.jpg)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![cover-image](http://path-to-your-image.jpg)
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You can also place other images witch will be put in text.&lt;/p&gt;
 
@@ -290,8 +291,8 @@ You can set post image covers by using only Ghost narkdown editor just place som
   &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Install Jekyll&lt;/a&gt; and read through &lt;a href=&quot;http://localhost:4000//theme-setup/installing-jekyll-on-windows/&quot;&gt;this installation instructions&lt;/a&gt; if you haven’t already.&lt;/li&gt;
   &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/hmfaysal/hmfaysal-omega-theme/fork&quot;&gt;HMFAYSAL Notepad Theme repo&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Clone the repo you just forked.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code&gt;_config.yml&lt;/code&gt; to personalize your site.&lt;/li&gt;
-  &lt;li&gt;Check out the sample posts in &lt;code&gt;_posts&lt;/code&gt; to see examples, assigning categories and tags, and other YAML data.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to personalize your site.&lt;/li&gt;
+  &lt;li&gt;Check out the sample posts in &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; to see examples, assigning categories and tags, and other YAML data.&lt;/li&gt;
   &lt;li&gt;Read the documentation below for further customization pointers and documentation.
 &lt;br /&gt;
 &lt;br /&gt;&lt;/li&gt;
@@ -300,101 +301,101 @@ You can set post image covers by using only Ghost narkdown editor just place som
 &lt;div class=&quot;span7 text-center&quot;&gt;&lt;a href=&quot;https://github.com/hmfaysal/hmfaysal-omega-theme/archive/master.zip&quot; class=&quot;btn btn-success btn-large&quot;&gt;&lt;i class=&quot;icon-download-alt&quot;&gt;&lt;/i&gt; Download the Theme&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Pro-tip:&lt;/strong&gt; Delete the &lt;code&gt;gh-pages&lt;/code&gt; branch after cloning and start fresh by branching off &lt;code&gt;master&lt;/code&gt;. There is a bunch of garbage in &lt;code&gt;gh-pages&lt;/code&gt; used for the theme’s demo site that I’m guessing you don’t want on your site.&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Pro-tip:&lt;/strong&gt; Delete the &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; branch after cloning and start fresh by branching off &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt;. There is a bunch of garbage in &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; used for the theme’s demo site that I’m guessing you don’t want on your site.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;setup-for-an-existing-jekyll-site&quot;&gt;Setup for an Existing Jekyll site&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Clone the following folders: &lt;code&gt;_includes&lt;/code&gt;, &lt;code&gt;_layouts&lt;/code&gt;, &lt;code&gt;assets&lt;/code&gt;, and &lt;code&gt;images&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Clone the following files and personalize content as need: &lt;code&gt;about.md&lt;/code&gt;, &lt;code&gt;articles.html&lt;/code&gt;, &lt;code&gt;index.html&lt;/code&gt;, &lt;code&gt;tags.html&lt;/code&gt;, &lt;code&gt;feed.xml&lt;/code&gt;, and &lt;code&gt;sitemap.xml&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Set the following variables in your &lt;code&gt;config.yml&lt;/code&gt; file:&lt;/li&gt;
+  &lt;li&gt;Clone the following folders: &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Clone the following files and personalize content as need: &lt;code class=&quot;highlighter-rouge&quot;&gt;about.md&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;articles.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;tags.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Set the following variables in your &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt; file:&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Site Title&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Site description for the metas.&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;             &lt;span class=&quot;l-Scalar-Plain&quot;&gt;site-logo.png&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;disqus_shortname&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;shortname&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Assign a default image for your site&amp;#39;s header and footer&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;default_bg&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;l-Scalar-Plain&quot;&gt;some-image.jpg&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;           &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;s&quot;&gt;Site Title&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;s&quot;&gt;Site description for the metas.&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;             &lt;span class=&quot;s&quot;&gt;site-logo.png&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;disqus_shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;shortname&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Assign a default image for your site&#39;s header and footer&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;default_bg&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;s&quot;&gt;some-image.jpg&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;           &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;            &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;readtime&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;         &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;readtime&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;         &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# Turn on or off the fin animations in the header and footer&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;animated_fins&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;animated_fins&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# Specify the fin color in RGB value&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;fin_color&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s&quot;&gt;&amp;quot;255,255,255&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;fin_color&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;        &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;255,255,255&quot;&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# Change url to your domain. Leave localhost server or blank when working locally.&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;              &lt;span class=&quot;s&quot;&gt;&amp;quot;http://localhost:4000&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;              &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;http://localhost:4000&quot;&lt;/span&gt;
 
 
 &lt;span class=&quot;c1&quot;&gt;# Owner/author information&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;owner&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;           &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Your Name&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;avatar&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;         &lt;span class=&quot;l-Scalar-Plain&quot;&gt;your-photo.jpg&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;          &lt;span class=&quot;l-Scalar-Plain&quot;&gt;your@email.com&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;# Use the coder&amp;#39;s toolbox at http://coderstoolbox.net/string/#!encoding=xml&amp;amp;action=encode&amp;amp;charset=us_ascii to encode your description into XML string&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Some Details about yourself&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;owner&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;           &lt;span class=&quot;s&quot;&gt;Your Name&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;avatar&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;         &lt;span class=&quot;s&quot;&gt;your-photo.jpg&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;          &lt;span class=&quot;s&quot;&gt;your@email.com&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# Use the coder&#39;s toolbox at http://coderstoolbox.net/string/#!encoding=xml&amp;amp;action=encode&amp;amp;charset=us_ascii to encode your description into XML string&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;Some Details about yourself&lt;/span&gt;
   &lt;span class=&quot;c1&quot;&gt;# Social networking links used in footer. Update and remove as you like.&lt;/span&gt;
   &lt;span class=&quot;c1&quot;&gt;# To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;instagram&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;tumblr&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;hmfaysalsocial&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;instagram&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;tumblr&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;hmfaysalsocial&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
   &lt;span class=&quot;c1&quot;&gt;# For Google Authorship https://plus.google.com/authorship&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;google_plus&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;&amp;quot;http://plus.google.com/123123123123132123&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;google_plus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;http://plus.google.com/123123123123132123&quot;&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# Analytics and webmaster tools stuff goes here&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;google_analytics&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;google_verify&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;google_analytics&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;google_verify&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;bing_verify&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;bing_verify&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# Links to include in top navigation&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# For external links add external: true&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Home&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;false&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;home&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;i class=&amp;quot;icon-book&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Documentation&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/documentation&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Categories&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/categories&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Tags&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/tags&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Faysal who?&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/hossain-mohd-faysal&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Home&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;home&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;i class=&quot;icon-book&quot;&amp;gt;&amp;lt;/i&amp;gt; Documentation&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/documentation&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Categories&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/categories&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Tags&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/tags&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Faysal who?&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/hossain-mohd-faysal&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;timezone&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;America/New_York&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;future&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;pygments&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;kramdown&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;6&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;paginate_path&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;page:num&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;timezone&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;America/New_York&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;future&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;pygments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;kramdown&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;paginate_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;page:num&quot;&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# https://github.com/mojombo/jekyll/wiki/Permalinks&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/:categories/:title&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;s&quot;&gt;/:categories/:title&lt;/span&gt;
 
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;kramdown&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;auto_ids&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;footnote_nr&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;1&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;entity_output&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;as_char&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;toc_levels&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;1..6&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;use_coderay&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;kramdown&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;auto_ids&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;footnote_nr&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;entity_output&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;as_char&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;toc_levels&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;1..6&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;use_coderay&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;
 
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;coderay&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;coderay_line_numbers&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; 
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;coderay_line_numbers_start&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;coderay_tab_width&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;4&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;coderay_bold_every&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;10&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;coderay_css&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;class&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+  &lt;span class=&quot;s&quot;&gt;coderay&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;coderay_line_numbers&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; 
+    &lt;span class=&quot;s&quot;&gt;coderay_line_numbers_start&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;coderay_tab_width&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;4&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;coderay_bold_every&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;10&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;coderay_css&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;class&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;hr /&gt;
 
@@ -403,17 +404,17 @@ You can set post image covers by using only Ghost narkdown editor just place som
 &lt;p&gt;A new blog post should have the following structure to utilise the themes functions&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Title&amp;quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;					&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Title of the post&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Some description&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;		&lt;/span&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;# Description of the post, used for Facebook Opengraph &amp;amp; Twitter&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;headline&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Some headline&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;				&lt;/span&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;# Will appear in bold letters on top of the post&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;modified&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;YYYY-MM-DD&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;				&lt;/span&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;# Date&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;personal&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p-Indicator&quot;&gt;[]&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; 
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;some-image.jpg&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Title&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;					&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Title of the post&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Some description&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;		&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;# Description of the post, used for Facebook Opengraph &amp;amp; Twitter&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;headline&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Some headline&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;				&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;# Will appear in bold letters on top of the post&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;modified&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;YYYY-MM-DD&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;				&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;# Date&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;personal&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; 
+  &lt;span class=&quot;s&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;some-image.jpg&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
 &lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;hr /&gt;
@@ -421,45 +422,45 @@ You can set post image covers by using only Ghost narkdown editor just place som
 &lt;h2 id=&quot;folder-structure&quot;&gt;Folder Structure&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Notepad
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   404.md
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   categories.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   favicon.ico
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   favicon.png
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   featured.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   feed.xml
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   hossain-mohd-faysal.md
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   index.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   LICENSE
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   links.jsonp
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   rakefile
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   README.md
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   search.json
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   sitemap.xml
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   tags.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   _config.yml
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
+|
+|   404.md
+|   categories.html
+|   favicon.ico
+|   favicon.png
+|   featured.html
+|   feed.xml
+|   hossain-mohd-faysal.md
+|   index.html
+|   LICENSE
+|   links.jsonp
+|   rakefile
+|   README.md
+|   search.json
+|   sitemap.xml
+|   tags.html
+|   _config.yml
+|
 +---assets
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   +---css
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;se&quot;&gt;\-&lt;/span&gt;--js
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
+|   +---css
+|   |
+|   &lt;span class=&quot;se&quot;&gt;\-&lt;/span&gt;--js
+|
 +---images
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
+|
 +---_includes
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       browser-upgrade.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       disqus_comments.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       footer.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       head.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       scripts.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       share.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       signoff.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
+|       browser-upgrade.html
+|       disqus_comments.html
+|       footer.html
+|       head.html
+|       scripts.html
+|       share.html
+|       signoff.html
+|
 +---_layouts
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       home.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       page.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       post.html
-&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
+|       home.html
+|       page.html
+|       post.html
+|
 &lt;span class=&quot;se&quot;&gt;\-&lt;/span&gt;--_posts&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;hr /&gt;
@@ -468,16 +469,16 @@ You can set post image covers by using only Ghost narkdown editor just place som
 
 &lt;h3 id=&quot;configyml&quot;&gt;_config.yml&lt;/h3&gt;
 
-&lt;p&gt;Most of the variables found here are used in the .html files found in &lt;code&gt;_includes&lt;/code&gt; if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with &lt;code&gt;{{ site.url }}&lt;/code&gt; in the various &lt;code&gt;_includes&lt;/code&gt; and &lt;code&gt;_layouts&lt;/code&gt;, so remember to properly set &lt;code&gt;url&lt;/code&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and use &lt;code&gt;http://localhost:4000&lt;/code&gt; when developing locally or else the theme’s stylesheet and scripts won’t load.
+&lt;p&gt;Most of the variables found here are used in the .html files found in &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;site.url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt; in the various &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, so remember to properly set &lt;code class=&quot;highlighter-rouge&quot;&gt;url&lt;/code&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and use &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; when developing locally or else the theme’s stylesheet and scripts won’t load.
 #### Disqus Comments&lt;/p&gt;
 
-&lt;p&gt;Create a &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; account and change &lt;code&gt;disqus_shortname&lt;/code&gt; in &lt;code&gt;_config.yml&lt;/code&gt; to the Disqus &lt;em&gt;shortname&lt;/em&gt; you just setup. To enable commenting on a post, add the following to its front matter:&lt;/p&gt;
+&lt;p&gt;Create a &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; account and change &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus_shortname&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to the Disqus &lt;em&gt;shortname&lt;/em&gt; you just setup. To enable commenting on a post, add the following to its front matter:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;ownerauthor-information&quot;&gt;Owner/Author Information&lt;/h4&gt;
 
-&lt;p&gt;Change your name, and avatar photo (200x200 pixels or larger), email, and social networking urls. If you want to link to an external image on Gravatar or something similiar you’ll need to edit the path in &lt;code&gt;head.html&lt;/code&gt; since it assumes it is located in &lt;code&gt;/images&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Change your name, and avatar photo (200x200 pixels or larger), email, and social networking urls. If you want to link to an external image on Gravatar or something similiar you’ll need to edit the path in &lt;code class=&quot;highlighter-rouge&quot;&gt;head.html&lt;/code&gt; since it assumes it is located in &lt;code class=&quot;highlighter-rouge&quot;&gt;/images&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Including a link to your Google+ profile has the added benefit of displaying &lt;a href=&quot;https://plus.google.com/authorship&quot;&gt;Google Authorship&lt;/a&gt; in Google search results if you’ve went ahead and applied for it.&lt;/p&gt;
 
@@ -487,22 +488,22 @@ You can set post image covers by using only Ghost narkdown editor just place som
 
 &lt;h4 id=&quot;top-navigation-links&quot;&gt;Top Navigation Links&lt;/h4&gt;
 
-&lt;p&gt;Edit page/post titles and URLs to include in the site’s navigation. For external links add &lt;code&gt;external: true&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Edit page/post titles and URLs to include in the site’s navigation. For external links add &lt;code class=&quot;highlighter-rouge&quot;&gt;external: true&lt;/code&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# sample top navigation links&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Home&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;false&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;home&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;i class=&amp;quot;icon-book&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Documentation&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/documentation&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Categories&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/categories&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Tags&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/tags&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Faysal who?&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/hossain-mohd-faysal&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;s&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Home&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;false&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;home&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;i class=&quot;icon-book&quot;&amp;gt;&amp;lt;/i&amp;gt; Documentation&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/documentation&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Categories&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/categories&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Tags&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/tags&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Faysal who?&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/hossain-mohd-faysal&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;other-stuff&quot;&gt;Other Stuff&lt;/h4&gt;
 
@@ -510,11 +511,11 @@ You can set post image covers by using only Ghost narkdown editor just place som
 
 &lt;h3 id=&quot;includes&quot;&gt;_includes&lt;/h3&gt;
 
-&lt;p&gt;For the most part you can leave these as is since the author/owner details are pulled from &lt;code&gt;_config.yml&lt;/code&gt;. That said you’ll probably want to customize the copyright stuff in &lt;code&gt;footer.html&lt;/code&gt; to your liking.&lt;/p&gt;
+&lt;p&gt;For the most part you can leave these as is since the author/owner details are pulled from &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. That said you’ll probably want to customize the copyright stuff in &lt;code class=&quot;highlighter-rouge&quot;&gt;footer.html&lt;/code&gt; to your liking.&lt;/p&gt;
 
 &lt;h3 id=&quot;adding-posts-and-pages&quot;&gt;Adding Posts and Pages&lt;/h3&gt;
 
-&lt;p&gt;There are two main content layouts: &lt;code&gt;post.html&lt;/code&gt; (for posts) and &lt;code&gt;page.html&lt;/code&gt; (for pages). Both have support for large &lt;strong&gt;feature images&lt;/strong&gt; that span the full-width of the screen, and both are meant for text heavy blog posts (or articles).&lt;/p&gt;
+&lt;p&gt;There are two main content layouts: &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt; (for posts) and &lt;code class=&quot;highlighter-rouge&quot;&gt;page.html&lt;/code&gt; (for pages). Both have support for large &lt;strong&gt;feature images&lt;/strong&gt; that span the full-width of the screen, and both are meant for text heavy blog posts (or articles).&lt;/p&gt;
 
 &lt;h4 id=&quot;feature-images&quot;&gt;Feature Images&lt;/h4&gt;
 
@@ -522,21 +523,21 @@ You can set post image covers by using only Ghost narkdown editor just place som
 
 &lt;p&gt;The two layouts make the assumption that the feature images live in the &lt;em&gt;images&lt;/em&gt; folder. To add a feature image to a post or page just include the filename in the front matter like so.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;feature-image-filename.jpg&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumbnail-image.jpg&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#keep it square 200x200 px is good&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;feature-image-filename.jpg&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;thumbnail-image.jpg&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#keep it square 200x200 px is good&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;categories&quot;&gt;Categories&lt;/h4&gt;
 
-&lt;p&gt;In the sample &lt;code&gt;_posts&lt;/code&gt; folder you may have noticed &lt;code&gt;category: articles&lt;/code&gt; in the front matter. I like keeping all posts grouped in the same folder. If you decide to rename or add categories you will need to modify the permalink in &lt;code&gt;articles.md&lt;/code&gt; along with the filename (if renaming).&lt;/p&gt;
+&lt;p&gt;In the sample &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder you may have noticed &lt;code class=&quot;highlighter-rouge&quot;&gt;category: articles&lt;/code&gt; in the front matter. I like keeping all posts grouped in the same folder. If you decide to rename or add categories you will need to modify the permalink in &lt;code class=&quot;highlighter-rouge&quot;&gt;articles.md&lt;/code&gt; along with the filename (if renaming).&lt;/p&gt;
 
-&lt;p&gt;For example. Say you want to group all your posts under &lt;code&gt;blog/&lt;/code&gt; instead of &lt;code&gt;articles/&lt;/code&gt;. In your post add &lt;code&gt;category: blog&lt;/code&gt; to the front matter, rename or duplicate &lt;code&gt;articles.md&lt;/code&gt; to &lt;code&gt;blog.md&lt;/code&gt; and change the permalink in that file to &lt;code&gt;permalink: /blog/index.html&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example. Say you want to group all your posts under &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;articles/&lt;/code&gt;. In your post add &lt;code class=&quot;highlighter-rouge&quot;&gt;category: blog&lt;/code&gt; to the front matter, rename or duplicate &lt;code class=&quot;highlighter-rouge&quot;&gt;articles.md&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;blog.md&lt;/code&gt; and change the permalink in that file to &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink: /blog/index.html&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;If done correctly &lt;code&gt;/blog&lt;/code&gt; should be a page listing all the site’s posts.&lt;/p&gt;
+&lt;p&gt;If done correctly &lt;code class=&quot;highlighter-rouge&quot;&gt;/blog&lt;/code&gt; should be a page listing all the site’s posts.&lt;/p&gt;
 
 &lt;h4 id=&quot;postpage-thumbnails-for-og-and-twitter-cards&quot;&gt;Post/Page Thumbnails for OG and Twitter Cards&lt;/h4&gt;
 
-&lt;p&gt;Post and page thumbnails work the same way. These are used by &lt;a href=&quot;https://developers.facebook.com/docs/opengraph/&quot;&gt;Open Graph&lt;/a&gt; and &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;Twitter Cards&lt;/a&gt; meta tags found in &lt;code&gt;head.html&lt;/code&gt;. If you don’t assign a thumbnail the image you assigned to &lt;code&gt;site.owner.avatar&lt;/code&gt; in `_config.yml will be used.&lt;/p&gt;
+&lt;p&gt;Post and page thumbnails work the same way. These are used by &lt;a href=&quot;https://developers.facebook.com/docs/opengraph/&quot;&gt;Open Graph&lt;/a&gt; and &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;Twitter Cards&lt;/a&gt; meta tags found in &lt;code class=&quot;highlighter-rouge&quot;&gt;head.html&lt;/code&gt;. If you don’t assign a thumbnail the image you assigned to &lt;code class=&quot;highlighter-rouge&quot;&gt;site.owner.avatar&lt;/code&gt; in `_config.yml will be used.&lt;/p&gt;
 
 &lt;p&gt;Here’s an example of what a tweet to your site could look like if you activate Twitter Cards and include all the metas in your post’s YAML.&lt;/p&gt;
 
@@ -546,17 +547,17 @@ You can set post image covers by using only Ghost narkdown editor just place som
 
 &lt;p&gt;To enable Facebook, Twitter, and Google+ share links on a post or page, add the following to its front matter:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;twitter-cards&quot;&gt;Twitter Cards&lt;/h4&gt;
 
-&lt;p&gt;Twitter cards make it possible to attach images and post summaries to Tweets that link to your content. Summary Card meta tags have been added to &lt;code&gt;head.html&lt;/code&gt; to support this, you just need to &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;validate and apply your domain&lt;/a&gt; to turn it on.&lt;/p&gt;
+&lt;p&gt;Twitter cards make it possible to attach images and post summaries to Tweets that link to your content. Summary Card meta tags have been added to &lt;code class=&quot;highlighter-rouge&quot;&gt;head.html&lt;/code&gt; to support this, you just need to &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;validate and apply your domain&lt;/a&gt; to turn it on.&lt;/p&gt;
 
 &lt;h4 id=&quot;error-404-page&quot;&gt;Error 404 page&lt;/h4&gt;
 
-&lt;p&gt;If you’re hosting your site with Github Pages, simply dropping the 404.html in the root folder will redirect all bad requests to this page. But if you’re hosting with some other provider, simply make a &lt;code&gt;.htaccess&lt;/code&gt; file with the following code in it and drop it in the root folder.&lt;/p&gt;
+&lt;p&gt;If you’re hosting your site with Github Pages, simply dropping the 404.html in the root folder will redirect all bad requests to this page. But if you’re hosting with some other provider, simply make a &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file with the following code in it and drop it in the root folder.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;ErrorDocument 404 /404.html&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;ErrorDocument 404 /404.html&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;hr /&gt;
 
@@ -581,7 +582,7 @@ You can set post image covers by using only Ghost narkdown editor just place som
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Used to generate absolute urls in &lt;code&gt;sitemap.xml&lt;/code&gt;, &lt;code&gt;feed.xml&lt;/code&gt;, and for canonical urls in &lt;code&gt;head.html&lt;/code&gt;. Don’t include a trailing &lt;code&gt;/&lt;/code&gt; in your base url ie: http://hmfaysal.github.io. When developing locally I suggest using &lt;code&gt;http://localhost:4000&lt;/code&gt; or whatever server you’re using to properly load the theme’s stylesheet, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing home. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Used to generate absolute urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and for canonical urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;head.html&lt;/code&gt;. Don’t include a trailing &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; in your base url ie: http://hmfaysal.github.io. When developing locally I suggest using &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; or whatever server you’re using to properly load the theme’s stylesheet, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing home. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -605,7 +606,7 @@ You can set post image covers by using only Ghost narkdown editor just place som
   <category scheme="http://localhost:4000//tags/#sample%20post" term="sample post" /><category scheme="http://localhost:4000//tags/#readability" term="readability" />
   <content type="html">
   
-    &lt;p&gt;This is a sample post with a large feature image up top and tons of text. You can set post image covers by using only Kramdown narkdown, just place something like this: &lt;code&gt;![cover-image](http://path-to-your-image.jpg)&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;This is a sample post with a large feature image up top and tons of text. You can set post image covers by using only Kramdown narkdown, just place something like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;![cover-image](http://path-to-your-image.jpg)&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
 
@@ -821,14 +822,14 @@ You can set post image covers by using only Ghost narkdown editor just place som
 &lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
 
-&lt;p&gt;Make any link standout more when applying the &lt;code&gt;button&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;button&lt;/code&gt; class.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Default Button&lt;/a&gt;&lt;/p&gt;
 
