@@ -1,13 +1,13 @@
-title:            Tudo sobre Cloud Computing em um só lugar!
-description:      "Papo de Cloud"
-logo:             logo.png
+title: Tudo sobre Cloud Computing em um só lugar!
+description: "Papo de Cloud"
+logo: logo.png
 disqus_shortname: brunoemer
-share:            true
-dropcap:			true
+share: true
+dropcap: true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  http://papodecloud.github.io/
+url:        	  http://localhost:4000/
 
 # Owner/author information
 owner:
@@ -17,10 +17,10 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
+  twitter:        papodecloud
   facebook:       hmfaysal
-  github:         hmfaysal
-  instagram:      hmfaysal
+  github:         papodecloud
+  # instagram:      hmfaysal
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -39,13 +39,13 @@ links:
     icon: home
   - title: Featured Posts
     url: /featured
-  - title: Categories
+  - title: Categorias
     url: /categories
-  - title: About
+  - title: Sobre
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Dhaka
+timezone:    America/Sao_Paulo
 future:      true
 highlighter: pygments
 markdown:    kramdown
