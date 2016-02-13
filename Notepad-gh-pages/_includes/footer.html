@@ -1,0 +1,51 @@
+<footer class="notepad-site-footer">
+    <div class="copyright">
+         <section>All content copyright <a href="{{ site.url }}/about">{{ page.writer.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+         <section>Proudly published with <a class="icon-ghost" href="https://jekyllrb.com/">Jekyll</a></section>
+    </div>
+    <div class="social-icons">
+
+        {% if page.writer.twitter %}
+        <a href="http://twitter.com/{{ page.writer.twitter }}" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if page.writer.google_plus %}
+        <a href="{{ page.writer.google_plus }}" >
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if page.writer.instagram %}
+        <a href="http://instagram.com/{{ page.writer.instagram }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-instagram fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if page.writer.github %}
+        <a href="http://github.com/{{ page.writer.github }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if page.writer.facebook %}
+        <a href="http://facebook.com/{{ page.writer.facebook }}">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+    </div>
+
+    <div class="cf"></div>
+</footer>
