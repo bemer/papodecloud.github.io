@@ -1,7 +1,7 @@
 [
 	
 		{
-		  "title"      : "Teste de postagem",
+		  "title"      : "O que é Cloud Computing?",
 		  "category"   : "articles",
 		  "url"        : "http://localhost:4000//articles/teste",
 		  "date"       : "2016-02-13 00:00:00 -0200",
