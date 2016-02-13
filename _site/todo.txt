@@ -1,0 +1,15 @@
+Alterações Papo de Cloud:
+
+1 - Trocar o ícone da página (browser)
+2 - Fixar o menu na parte superior das telas
+3 - Alterar URLs geradas pelo menu para portugues
+4 - Validar logo
+5 - Alterar cor preta da página principal**
+6 - Escrever o "Sobre"
+7 - Criar página para colaboradores
+8 - Mapear Categorias
+9 - Criar estrutura de diretórios para imagens de posts e colaboradores
+10 - remover todas as mençòes do criados do tema
+11 - Alinhar texto sobre autor nas páginas de Posts
+12 - Inserir site do autor
+13 - alterar textos botões older newer
