@@ -364,7 +364,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       @media only screen and (min-width: 40.063em) {
         .notepad-author-info .notepad-post-author .notepad-post-author-avatar {
           margin-right: 3.125rem;
-          margin-bottom: 0;
+          margin-bottom: 3.125rem;
           float: left; } }
     @media only screen and (min-width: 40.063em) {
       .notepad-author-info .notepad-post-author {
