@@ -1,5 +1,5 @@
 title:            PAPO DE CLOUD
-description:      Cloud Computing. Em seu idioma.
+description:      Cloud Computing. No seu idioma.
 logo: cloud-chat2.png
 disqus_shortname: brunoemer
 share: true
@@ -40,7 +40,7 @@ links:
     external: false
     icon: home
   - title: Posts em destaque
-    url: /featured
+    url: /destaques
   - title: Categorias
     url: /categories
   - title: Sobre
