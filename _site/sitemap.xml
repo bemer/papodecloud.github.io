@@ -14,7 +14,7 @@
     </url>
     
     <url>
-        <loc>http://papodecloud.github.io/categories/index.html</loc>
+        <loc>http://papodecloud.github.io/categorias/index.html</loc>
     </url>
     
     <url>
@@ -43,6 +43,10 @@
     
     <url>
         <loc>http://papodecloud.github.io/sitemap.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://papodecloud.github.io/sobre/index.html</loc>
     </url>
     
     <url>

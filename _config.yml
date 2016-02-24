@@ -42,9 +42,9 @@ links:
   - title: Posts em destaque
     url: /destaques
   - title: Categorias
-    url: /categories
+    url: /categorias
   - title: Sobre
-    url: /about
+    url: /sobre
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Sao_Paulo
