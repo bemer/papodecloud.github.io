@@ -2,37 +2,37 @@ callback([
 
   {
     "text": "Theme Elements",
-    "href": "http://localhost:4000/articles/theme-elements"
+    "href": "http://papodecloud.github.io/articles/theme-elements"
   } ,
 
   {
     "text": "Testing Readability with a Bunch of Text",
-    "href": "http://localhost:4000/articles/readability-post"
+    "href": "http://papodecloud.github.io/articles/readability-post"
   } ,
 
   {
     "text": "Post with Cover Image and Text",
-    "href": "http://localhost:4000/theme/readability-feature-post"
+    "href": "http://papodecloud.github.io/theme/readability-feature-post"
   } ,
 
   {
     "text": "Documentation",
-    "href": "http://localhost:4000/theme/documentation"
+    "href": "http://papodecloud.github.io/theme/documentation"
   } ,
 
   {
     "text": "Introducing Notepad",
-    "href": "http://localhost:4000/personal/introducing-notepad"
+    "href": "http://papodecloud.github.io/personal/introducing-notepad"
   } ,
 
   {
     "text": "Why Jekyll?",
-    "href": "http://localhost:4000/webdevelopment/why-jekyll"
+    "href": "http://papodecloud.github.io/webdevelopment/why-jekyll"
   } ,
 
   {
     "text": "O que é Cloud Computing?",
-    "href": "http://localhost:4000/cloud%20computing/introdu%C3%A7%C3%A3o/o-que-e-cloud-computing"
+    "href": "http://papodecloud.github.io/cloud%20computing/introdu%C3%A7%C3%A3o/o-que-e-cloud-computing"
   } 
 
 ])
