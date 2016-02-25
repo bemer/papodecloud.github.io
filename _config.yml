@@ -52,7 +52,7 @@ future:      true
 highlighter: rouge
 markdown:    kramdown
 paginate:    5
-paginate_path: "page:num"
+paginate_path: "pagina:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
