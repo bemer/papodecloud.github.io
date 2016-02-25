@@ -3,18 +3,19 @@ layout: post
 title: O que é Cloud Computing?
 description: "O que é e para que serve a Computação em Nuvem."
 modified: 2016-02-14
-category: [cloud computing, introdução]
+category: [cloud computing, introdução, artigos]
 tags: [cloud computing]
 imagefeature: cloud.jpg
 comments: false
 share: true
+featured: true
 writer:
   name: Bruno Emer
   avatar: brunoemer.png
   email: brunoemer@gmail.com
   website: www.brunoemer.com.br
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description: DevOps Engineer na Omnize. Fã de tecnologia, música e fotografia. DevOps Engineer na Omnize. Fã de tecnologia, música e fotografia. DevOps Engineer na Omnize. Fã de tecnologia, música e fotografia.
+  description: Cofundador e engenheiro de DevOps na Omnize. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas.
   # Social networking links used in footer. Update and remove as you like.
   twitter: brunoemer_
   linkedin: brunoemer
