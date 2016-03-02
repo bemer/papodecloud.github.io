@@ -321,6 +321,13 @@ html, body, .notepad-post-container, .notepad-post-header {
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
   background: #f2f2f2; }
+
+.author-info {
+  padding: 0;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background: #fff; }
+
   @media only screen and (min-width: 40.063em) {
     .notepad-author-info {
       padding-top: 5rem;
@@ -333,28 +340,28 @@ html, body, .notepad-post-container, .notepad-post-header {
     .notepad-author-info {
       padding-top: 7.5rem;
       padding-bottom: 7.5rem; } }
-  .notepad-author-info .notepad-post-author {
+  .notepad-author-info .notepad-post-author, .author-info .notepad-post-author{
     padding-left: 1.875rem;
     padding-right: 1.875rem;
     text-align: center; }
-    .notepad-author-info .notepad-post-author .author-label {
+    .notepad-author-info .notepad-post-author .author-label, .author-info .notepad-post-author .author-label {
       display: block;
       font-size: 1rem;
       color: gray;
       font-style: italic; }
-    .notepad-author-info .notepad-post-author .author-website {
+    .notepad-author-info .notepad-post-author .author-website, .author-info .notepad-post-author .author-website {
       font-size: 1rem; }
-    .notepad-author-info .notepad-post-author h1 {
+    .notepad-author-info .notepad-post-author h1, .author-info .notepad-post-author h1 {
       margin: 0;
       padding: 0;
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       text-transform: uppercase; }
-    .notepad-author-info .notepad-post-author > p {
+    .notepad-author-info .notepad-post-author > p, .author-info .notepad-post-author > p{
       font-size: 1.125rem; }
-      .notepad-author-info .notepad-post-author > p a {
+      .notepad-author-info .notepad-post-author > p a, .author-info .notepad-post-author > p a {
         color: #0068d5; }
-    .notepad-author-info .notepad-post-author .notepad-post-author-avatar {
+    .notepad-author-info .notepad-post-author .notepad-post-author-avatar, .author-info .notepad-post-author .notepad-post-author-avatar {
       width: 12.5rem;
       height: 12.5rem;
       border-radius: 50%;
@@ -362,13 +369,16 @@ html, body, .notepad-post-container, .notepad-post-header {
       margin-right: 0;
       margin-bottom: 1.25rem; }
       @media only screen and (min-width: 40.063em) {
-        .notepad-author-info .notepad-post-author .notepad-post-author-avatar {
+        .notepad-author-info .notepad-post-author .notepad-post-author-avatar, .author-info .notepad-post-author .notepad-post-author-avatar  {
           margin-right: 3.125rem;
           margin-bottom: 5rem;
           float: left; } }
     @media only screen and (min-width: 40.063em) {
-      .notepad-author-info .notepad-post-author {
+      .notepad-author-info .notepad-post-author, .author-info .notepad-post-author {
         text-align: left; } }
+
+
+
 
 .notepad-page-menu-header,
 .notepad-post-menu-header-simple {

@@ -3,12 +3,10 @@ layout: page
 permalink: /sobre/index.html
 title: Papo de Cloud
 tags: [Sobre, Papo de Cloud, Institucional]
-imagefeature: fourseasons.jpg
 chart: true
 ---
 <!-- <figure>
-  <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
-  <figcaption>Hossain Mohammad Faysal</figcaption>
+  <img src="{{ site.url }}/images/logo.png" alt="Papo de Cloud">
 </figure> -->
 
 {% assign total_words = 0 %}
@@ -39,8 +37,29 @@ Atualmente, o Papo de Cloud possui {{ site.posts | size }} posts em {{ site.cate
 
 ## Os criadores
 
+<br>
+<div class="author-info">
+    <div class="row">
+        <section class="notepad-post-author small-12 columns">
+                <img src="{{site.url}}/images/brunoemer.png" class="notepad-post-author-avatar" alt="Bruno Emer">
+                <h2>Bruno Emer</h2>
+                <p>Cofundador e engenheiro de DevOps na Omnize. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas.</p>
+        </section>
+    </div>
+</div>
 
-<div class="notepad-author-info">
+
+<div class="author-info">
+    <div class="row">
+        <section class="notepad-post-author small-12 columns">
+                <img src="{{site.url}}/images/brunoemer.png" class="notepad-post-author-avatar" alt="Bruno Emer">
+                <h2>Bruno Emer</h2>
+                <p>Cofundador e engenheiro de DevOps na Omnize. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas.</p>
+        </section>
+    </div>
+</div>
+
+<div class="author-info">
     <div class="row">
         <section class="notepad-post-author small-12 columns">
                 <img src="{{site.url}}/images/brunoemer.png" class="notepad-post-author-avatar" alt="Bruno Emer">
