@@ -53,7 +53,7 @@ Atualmente, o Papo de Cloud possui {{ site.posts | size }} posts em {{ site.cate
     <div class="row">
         <section class="notepad-post-author small-12 columns">
                 <img src="{{site.url}}/images/brunoemer.png" class="notepad-post-author-avatar" alt="Gilmar Machado">
-                <h2>Bruno Emer</h2>
+                <h2>Gilmar Machado</h2>
                 <p>Cofundador e engenheiro de DevOps na Omnize. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas.</p>
         </section>
     </div>
@@ -63,7 +63,7 @@ Atualmente, o Papo de Cloud possui {{ site.posts | size }} posts em {{ site.cate
     <div class="row">
         <section class="notepad-post-author small-12 columns">
                 <img src="{{site.url}}/images/brunoemer.png" class="notepad-post-author-avatar" alt="Rodrigo del Monte">
-                <h2>Bruno Emer</h2>
+                <h2>Rodrigo del Monte</h2>
                 <p>Cofundador e engenheiro de DevOps na Omnize. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas.</p>
         </section>
     </div>
