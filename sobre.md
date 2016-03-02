@@ -27,19 +27,30 @@ chart: true
 {% endfor %}
 
 
-O **Papo de Cloud** foi criado por Bruno Emer, Gilmar Machado e Rodrigo del Monte, e tem como objetivo publicar conteúdo sobre computação em nuvem em português, afim de difundir a utilização de tecnologias escaláveis, econômicas, seguras e principalmente acessíveis.
+O **Papo de Cloud** foi criado por Bruno Emer, Gilmar Machado e Rodrigo del Monte no ano de 2016, e tem como objetivo publicar conteúdo sobre computação em nuvem em português, afim de difundir a utilização de tecnologias escaláveis, econômicas, seguras e principalmente acessíveis.
 
-A idéia de criar um blog com esta temática, surgiu em meados de 2015, quando nos deparamos com a dificuldade em encontrar material sobre novas tecnologias, ferramentas e melhores práticas para o provisionamento e manutenção de componentes em ambientes de nuvens públicas e privadas em nosso idioma. A partir daí, juntamos as nossas idéias e experiências e demos início a este projeto.
+A idéia de criar um blog com esta temática, surgiu em meados de 2015, quando nos deparamos com a dificuldade em encontrar material sobre novas tecnologias, ferramentas e melhores práticas para o provisionamento e manutenção de componentes em ambientes de nuvem em nosso idioma. A partir daí, juntamos as nossas idéias e experiências e demos início a este projeto.
 
-O objetivo principal Papo de Cloud é apresentar artigos, tutoriais e compartilhar nossas experiências (boas e ruins) com todos os interessados no assunto, sejam estudantes, analistas, engenheiros, gerentes, diretores ou apenas curiosos!
+O objetivo principal Papo de Cloud é apresentar artigos, tutoriais e compartilhar experiências (boas e ruins) tanto nossas quanto de outros amigos que atuam diariamente na área de TI com todos os interessados no assunto, sejam estudantes, analistas, engenheiros, gerentes, diretores ou apenas curiosos!
 
 Se você já trabalha na área de TI e quer aprender mais sobre computação em nuvem, este blog é pra você. Se você quer trabalhar com TI e tem interesse por arquiteturas escaláveis, plataformas open-source e ambientes altamente gerenciáveis, este blog é pra você. Se você não sabe o que é computação, quer começar a entender melhor como funciona e não quer ter o trabalho de traduzir manuais e how-to's, este blog também é para você!
 
 Atualmente, o Papo de Cloud possui {{ site.posts | size }} em {{ site.categories | size }} cateagorias, que combinados possuem um total de {{ total_words }} palavras. Temos <a href="{{ site.url }}/destaques">{{ featuredcount }} posts em destaque</a> que merecem uma atenção especial, e o nosso post mais recente é {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Leia mais sobre {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %}.
 
+## Os criadores
 
 
-A idéia do *Papo de Cloud* surgiu em meados de 2015, quando Bruno Emer
+<div class="notepad-author-info">
+    <div class="row">
+        <section class="notepad-post-author small-12 columns">
+                <img src="{{site.url}}/images/brunoemer.png" class="notepad-post-author-avatar" alt="Bruno Emer">
+                <h2>Bruno Emer</h2>
+                <p>Cofundador e engenheiro de DevOps na Omnize. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas.</p>
+        </section>
+    </div>
+</div>
+
+
 
  My name is **Hossain Mohd. Faysal**, and this is my personal blog. It currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories which combinedly have {{ total_words }} words, which will take an average reader ({{ site.wpm }} WPM) approximately <span class="time">{{ total_readtime }}</span> minutes to read. {% if featuredcount != 0 %}There are <a href="{{ site.url }}/featured">{{ featuredcount }} featured posts</a>, you should definitely check those out.{% endif %} The most recent post is {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Read more about {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %} which was published on {% for post in site.posts limit:1 %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}{% endfor %}. The last commit was on {{ site.time | date: "%A, %d %b %Y" }} at {{ site.time | date: "%I:%M %p" }} [UTC](http://en.wikipedia.org/wiki/Coordinated_Universal_Time "Temps Universel Coordonné").
 
