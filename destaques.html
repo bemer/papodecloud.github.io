@@ -9,7 +9,26 @@ description: "An archive of posts sorted by date."
 {% for post in site.posts %}
 {% if post.featured %}
 {% assign featuredcount = featuredcount | plus:'1' %}
-  <li><article><i class="fa fa-star-half-o"></i> <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  <li><article><i class="fa fa-star-half-o"></i> <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date">
+  <time datetime="{{ post.date | date_to_xmlschema }}">
+  	{{ post.date | date: "%d de" }}  
+        {% assign m = post.date | date: "%-m" %}
+          {% case m %}
+            {% when '1' %}Janeiro
+            {% when '2' %}Fevereiro
+            {% when '3' %}Março
+            {% when '4' %}Abril
+            {% when '5' %}Maio
+            {% when '6' %}Junho
+            {% when '7' %}Julho
+            {% when '8' %}Agosto
+            {% when '9' %}Setembro
+            {% when '10' %}Outubro
+            {% when '11' %}Novembro
+            {% when '12' %}Dezembro
+        {% endcase %}
+    {{ post.date | date: "de %Y" }}    
+  </time></span></a></article></li>
 {% endif %}
 {% endfor %}
 </ul>
