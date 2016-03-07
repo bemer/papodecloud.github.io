@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /sobre/index.html
-title: Papo de Cloud
+title: Sobre
 tags: [Sobre, Papo de Cloud, Institucional]
 chart: true
 ---
