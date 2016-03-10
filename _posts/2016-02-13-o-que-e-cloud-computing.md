@@ -6,7 +6,7 @@ modified: 2016-02-14
 category: [cloud computing, introdução, artigos]
 tags: [cloud computing]
 imagefeature: posts/cloud.jpg
-comments: false
+comments: true
 share: true
 featured: true
 writer:
