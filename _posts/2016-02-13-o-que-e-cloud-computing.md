@@ -5,13 +5,13 @@ description: "O que é e para que serve a Computação em Nuvem."
 modified: 2016-02-14
 category: [cloud computing, introdução, artigos]
 tags: [cloud computing]
-imagefeature: cloud.jpg
+imagefeature: posts/cloud.jpg
 comments: false
 share: true
 featured: true
 writer:
   name: Bruno Emer
-  avatar: brunoemer.png
+  avatar: writers/brunoemer.png
   email: brunoemer@gmail.com
   website: www.brunoemer.com.br
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
