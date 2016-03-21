@@ -2,9 +2,14 @@
 layout: page
 permalink: /sobre/index.html
 title: Sobre
-tags: [Sobre, Papo de Cloud, Institucional]
+tags: 
+  - Sobre
+  - Papo de Cloud
+  - Institucional
 chart: true
+published: true
 ---
+
 <!-- <figure>
   <img src="{{ site.url }}/images/logo.png" alt="Papo de Cloud">
 </figure> -->
@@ -54,7 +59,7 @@ Atualmente, o Papo de Cloud possui {{ site.posts | size }} posts em {{ site.cate
         <section class="notepad-post-author small-12 columns">
                 <img src="{{site.url}}/images/writers/gilmarmachado.png" class="notepad-post-author-avatar" alt="Gilmar Machado">
                 <h2>Gilmar Machado</h2>
-                <p>Cofundador e analista de infraestrutura na Universidade de São Paulo. Acredita que a melhor solução é a que resolve o problema, estuda tudo o que encontra sobre web-scale IT e assiste qualquer esporte, apesar de não praticar nenhum.</p>
+                <p>Analista de infraestrutura na Universidade de São Paulo. Acredita que a melhor solução é a que resolve o problema, estuda tudo o que encontra sobre web-scale IT e assiste qualquer esporte, apesar de não praticar nenhum.</p>
         </section>
     </div>
 </div>
