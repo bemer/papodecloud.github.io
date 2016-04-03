@@ -55,7 +55,7 @@ paginate:    5
 paginate_path: "pagina:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:year/:month/:day/:title
+permalink:   /:year-:month-:day/:title
 
 kramdown:
   auto_ids: true
