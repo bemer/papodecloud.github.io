@@ -59,7 +59,7 @@ Atualmente, o Papo de Cloud possui {{ site.posts | size }} posts em {{ site.cate
         <section class="notepad-post-author small-12 columns">
                 <img src="{{site.url}}/images/writers/gilmarmachado.png" class="notepad-post-author-avatar" alt="Gilmar Machado">
                 <h2>Gilmar Machado</h2>
-                <p>Analista de infraestrutura na Universidade de São Paulo. Acredita que a melhor solução é a que resolve o problema, estuda tudo o que encontra sobre web-scale IT e assiste a qualquer modalidade de esporte, apesar de não praticar nenhum.</p>
+                <p>Analista de infraestrutura na Universidade de São Paulo e co-criador do Papo de Cloud. Acredita que a melhor solução é a que resolve o problema, estuda tudo o que encontra sobre web-scale IT e assiste a qualquer modalidade de esporte, apesar de não praticar nenhum.</p>
         </section>
     </div>
 </div>
