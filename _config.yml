@@ -14,14 +14,14 @@ url:        	  http://www.papodecloud.com.br
 # Owner/author information
 owner:
   name:           Papo de Cloud
-  avatar:         hmfaysal.jpg
-  email:          contato@papodecloud.com.br
+  # avatar:         hmfaysal.jpg
+  # email:          contato@papodecloud.com.br
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  # description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
   twitter:        papodecloud
   # facebook:       papodecloud
-  github:         papodecloud
+  # github:         papodecloud
   # instagram:      papodecloud
   # For Google Authorship https://plus.google.com/authorship
   # google_plus:    https://plus.google.com/u/0/102602916593522619858
