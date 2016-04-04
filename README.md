@@ -1,27 +1,7 @@
-Notepad is a Jekyll theme which is very simple, clean and beautiful. This theme is good for any blog.
-  
-Main Features:
+O **Papo de Cloud** foi criado no ano de 2016, e tem como objetivo publicar conteúdo sobre computação em nuvem em português, afim de difundir a utilização de tecnologias escaláveis, econômicas, seguras e principalmente acessíveis.
 
-* Zurb Foundation 5 – css framework
-* Scss files with settings file
-* Fullscreen post covers with header wich will be bright or dark according to background image
-* Fast and light
-* Font Awesome
-* Disqus comments integration
+A idéia de criar um blog com esta temática, surgiu em meados de 2015, quando Bruno se deparou com a dificuldade em encontrar material sobre novas tecnologias, ferramentas e melhores práticas para o provisionamento e manutenção de componentes em ambientes de nuvem em nosso idioma. A partir daí, Bruno convidou alguns de seus amigos e colegas de trabalho e estudo para juntarem-se ao projeto e dar início ao processo de criação dos conteúdos a serem apresentados, entre eles, Gilmar Machado, que participou do projeto desde sua concepção.
 
-You can set post image covers by using only Kramdown narkdown, just place something like this: `![cover-image](http://path-to-your-image.jpg)`
+O objetivo principal Papo de Cloud é apresentar artigos, tutoriais e compartilhar experiências (boas e ruins) tanto nossas quanto de outros amigos que atuam diariamente na área de TI com todos os interessados no assunto, sejam estudantes, analistas, engenheiros, gerentes, diretores ou apenas curiosos!
 
-Credits:
-
-* Zurb Foundation 5 [http://foundation.zurb.com/](http://foundation.zurb.com/)
-* Font Awesome [http://fontawesome.io](http://fontawesome.io)
-* Google fonts [http://www.google.com/fonts](http://www.google.com/fonts)
-* Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
-* Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
-* There are also tools like jQuery, Modernizr, Normalize.
-
-If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
-
-
-Warm Regards and Stay Creative,  
-Hossain Mohd. Faysal
+Se você já trabalha na área de TI e quer aprender mais sobre computação em nuvem, este blog é pra você. Se você quer trabalhar com TI e tem interesse por arquiteturas escaláveis, plataformas open-source e ambientes altamente gerenciáveis, este blog é pra você. Se você não sabe o que é computação, quer começar a entender melhor como funciona e não quer ter o trabalho de traduzir manuais e how-to’s, este blog também é para você!
