@@ -2,7 +2,7 @@
 	
 		{
 		  "title"      : "Modelos de computação em nuvem - IaaS",
-		  "category"   : "IntroduçãoIaaS",
+		  "category"   : "IaaSIntrodução",
 		  "url"        : "http://localhost:4000/blog/2016-04-08-modelos-de-computacao-em-nuvem-iaas",
 		  "date"       : "2016-04-08 00:00:00 +0100",
 		  "shortdate"  : "April 08, 2016"
@@ -10,7 +10,7 @@
 	
 		{
 		  "title"      : "O que é Cloud Computing?",
-		  "category"   : "IntroduçãoArtigos",
+		  "category"   : "ArtigosIntrodução",
 		  "url"        : "http://localhost:4000/blog/2016-04-05-o-que-e-cloud-computing",
 		  "date"       : "2016-04-05 00:00:00 +0100",
 		  "shortdate"  : "April 05, 2016"

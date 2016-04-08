@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2016-04-08T16:03:06+01:00</updated>
+<updated>2016-04-08T18:09:16+01:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Papo de Cloud</name>
@@ -28,7 +28,7 @@
     <uri>http://localhost:4000</uri>
     <email></email>
   </author>
-  
+  <category scheme="http://localhost:4000/tags/#introdu%C3%A7%C3%A3o" term="introdução" /><category scheme="http://localhost:4000/tags/#artigos" term="artigos" />
   <content type="html">
   
     &lt;p&gt;Inicialmente, podemos dividir a computação em nuvem em três modelos de serviço, de acordo com os diferentes níveis de controle, flexibilidade e gerenciamento que cada um deles oferece.&lt;/p&gt;

@@ -3,7 +3,8 @@ layout: post
 title: Modelos de computação em nuvem - IaaS
 description: "Introdução a um dos mais populares modelos de computação em nuvem"
 modified: 2016-04-08
-category: [Introdução, IaaS]
+category: [IaaS, Introdução]
+tags: [introdução, artigos]
 imagefeature:
 comments: true
 share: true

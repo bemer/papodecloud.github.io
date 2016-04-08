@@ -44,7 +44,7 @@
 {% if page.imagefeature %}
             <div class="notepad-post-title bg-check">
                 <h1>{{ page.title }}</h1>
-                <p>por <strong>{{ page.writer.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}em {% for tag in page.tags %}<a href="{{ site.url }}/categorias/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong>
+                <p>por <strong>{{ page.writer.name }}</strong> &#8212; {% assign tagsize = page.categories.size %}{% if tagsize != 0 %}em {% for tag in page.categories %}<a href="{{ site.url }}/categorias/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong>
                     <time datetime="{{ page.date | date_to_xmlschema }}">
                         {{ page.date | date: "%d de" }}
                         {% assign m = page.date | date: "%-m" %}
@@ -75,7 +75,7 @@
                     <div class="small-12 columns">
                         <div class="notepad-post-meta-simple">
                             <h1>{{ page.title }}</h1>
-                            <p>por <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}em {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong>
+                            <p>por <strong>{{ page.writer.name }}</strong> &#8212; {% assign tagsize = page.categories.size %}{% if tagsize != 0 %}em {% for tag in page.categories %}<a href="{{ site.url }}/categorias/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong>
                                 <time datetime="{{ page.date | date_to_xmlschema }}">
                                     {{ page.date | date: "%d de" }}
                                     {% assign m = page.date | date: "%-m" %}
