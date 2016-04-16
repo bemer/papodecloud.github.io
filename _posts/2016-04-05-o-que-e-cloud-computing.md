@@ -5,7 +5,7 @@ description: "O que é e para que serve a Computação em Nuvem."
 modified: 2016-04-05
 category: [Artigos, Introdução]
 tags: [introdução, artigos]
-imagefeature: posts/cloud.jpg
+imagefeature: posts/o_que_e_cloud_computing.jpg
 comments: true
 share: true
 featured: true
@@ -15,7 +15,7 @@ writer:
   email: brunoemer@gmail.com
   website: www.brunoemer.com.br
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description: Cofundador e engenheiro de DevOps na Omnize e idealizador do Papo de Cloud. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas. Gosta de futebol americano e torce para os Denver Broncos.
+  description: Cofundador da Omnize e idealizador do Papo de Cloud. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas. Gosta de futebol americano e torce para os Denver Broncos.
   # Social networking links used in footer. Update and remove as you like.
   twitter: emerbruno
   linkedin: brunoemer

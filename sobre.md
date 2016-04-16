@@ -48,7 +48,7 @@ Atualmente, o Papo de Cloud possui {{ site.posts | size }} posts em {{ site.cate
         <section class="notepad-post-author small-12 columns">
                 <img src="{{site.url}}/images/writers/brunoemer.png" class="notepad-post-author-avatar" alt="Bruno Emer">
                 <h2>Bruno Emer</h2>
-                <p>Cofundador e engenheiro de DevOps na Omnize e idealizador do Papo de Cloud. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas. Gosta de futebol americano e torce para os Denver Broncos.</p>
+                <p>Cofundador da Omnize e idealizador do Papo de Cloud. Fascinado por tecnologia, música e fotografia. Adora viajar e conhecer novas culturas, culinárias e idiomas. Gosta de futebol americano e torce para os Denver Broncos.</p>
         </section>
     </div>
 </div>
