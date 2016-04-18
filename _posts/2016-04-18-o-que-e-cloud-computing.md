@@ -2,7 +2,7 @@
 layout: post
 title: O que é Cloud Computing?
 description: "O que é e para que serve a Computação em Nuvem."
-modified: 2016-04-05
+modified: 2016-04-18
 category: [Artigos, Introdução]
 tags: [introdução, artigos]
 imagefeature: posts/o_que_e_cloud_computing.jpg
