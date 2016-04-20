@@ -29,7 +29,7 @@ writer:
 
 
 
-No post anterior, foi possível ter uma visão bem clara a respeito de o que é e para que serve a computação em nuvem. Porém, quando falamos em nuvem, é necessário entender que estamos falando em um conceito que segue algumas regras básicas, baseadas em elasticidade, autoatendimento, acessibilidade, entre outras.
+No <a href="http://www.papodecloud.com.br/blog/2016-04-18-o-que-e-cloud-computing" title="post anterior">, foi possível ter uma visão bem clara a respeito de o que é e para que serve a computação em nuvem. Porém, quando falamos em nuvem, é necessário entender que estamos falando em um conceito que segue algumas regras básicas, baseadas em elasticidade, autoatendimento, acessibilidade, entre outras.
 
 Quando juntamos todas estas regras e pensamos em empresas utilizando estes recursos, podemos ter uma clara visão de que nem todas estas empresas irão se beneficiar da utilização da computação em nuvem da mesma forma, já que para uma empresa de um determinado segmento a utilização de tecnologias específicas faz mais sentido do que para outra. Sendo assim, podemos nos fazer a seguinte pergunta: Como empresas de diferentes segmentos podem, então, se beneficiar dos conceitos e das vantagens que a nuvem oferece? E a resposta para esta pergunta, apesar de parecer complexa, é relativamente simples: existem diferentes modelos de computação nuvem.
 
