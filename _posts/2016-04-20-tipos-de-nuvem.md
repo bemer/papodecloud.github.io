@@ -36,7 +36,7 @@ Quando juntamos todas estas regras e pensamos em empresas utilizando estes recur
 Quando falamos em "modelos", estamos nos referindo a diferentes implementações dos recursos que entregarão os serviços e benefícios da nuvem. A seguir, vamos começar listando estes modelos e definindo seu funcionamento e suas principais características.
 
 
-##Nuvem Pública (Public Cloud)
+## Nuvem Pública (Public Cloud)
 
 O conceito de Nuvem Pública é o mais difundido e utilizado atualmente. Uma nuvem pública é basicamente aquela em que os serviços são entregues por um provedor - chamado de Cloud Provider - e todos podem realizar a contratação dos serviços e utilização destes recursos. Um bom exemplo para maior entendimento do conceito de Nuvem Pública é a utilização do provedor de e-mails Gmail. O Gmail é uma aplicação executada nos servidores da Google, e acessível por todos os seus usuários, (inclusive eu) através da internet. Basicamente qualquer pessoa pode realizar a contratação deste serviço e utilizar os recursos computacionais dos datacenters da Google para realizar o envio e o recebimento de e-mails sem se preocupar com a estrutura necessária para isto, uma vez que esta preocupação é apenas da Google. Neste caso, a Google é o nosso Cloud Provider.
 
@@ -45,7 +45,7 @@ Um ponto importante a ser observado no conceito de nuvem pública, é que todas 
 Além disto, o modelo de nuvem pública deve sempre levar em conta a separação lógica dos dados dos clientes. O nome dado para o conceito desta separação dos dados baseada em clientes é multi-tenancy. Isto significa que mesmo utilizando os mesmos servidores que você para acessar, enviar, receber e armazenar meus e-mails, eu não conseguirei de forma nenhuma visualizar uma mensagem enviada para ou por você. Todos os provedores de nuvem pública devem possuir este conceito.
 
 
-##Nuvem Privada (Private Cloud)
+## Nuvem Privada (Private Cloud)
 
 Ok Bruno! Eu entendi o conceito de nuvem pública. Mas e se eu trabalhar em uma empresa com 5 mil funcionários e não quiser minha plataforma de e- mails nos servidores do Google, mas ainda assim, quiser disponibilizar recursos elásticos para meus usuários através de uma plataforma web onde eles mesmos poderão criar suas contas e gerenciar as propriedades de suas caixas postais sem que minha equipe de help-desk precise intervir?
 
@@ -56,7 +56,7 @@ Uma Nuvem Privada deve ter os mesmos aspectos de uma nuvem pública, em relaçã
 Basicamente, é como se uma determinada empresa pudesse criar máquinas virtuais em seu datacenter para sua equipe de desenvolvimento da mesma forma que a AWS.
 
 
-##Nuvem Comunitária (Community Cloud)
+## Nuvem Comunitária (Community Cloud)
 
 A nuvem comunitária é um modelo muito específico de nuvem, que tem o propósito de atingir apenas a um determinado conjunto de organizações em um determinado segmento.
 
@@ -69,7 +69,7 @@ A ideia da criação de uma nuvem comunitária é justamente instalar este siste
 Obviamente este é um exemplo fictício, mas que nos ajuda a entender o conceito de uma nuvem comunitária: uma estrutura que atende os interesses de um determinado grupo ou segmento no mercado.
 
 
-##Nuvem híbrida (Hybrid Cloud)
+## Nuvem híbrida (Hybrid Cloud)
 
 Mas, e quando uma empresa deseja realizar a utilização de mais de um dos modelos anteriores em sua estrutura?
 
