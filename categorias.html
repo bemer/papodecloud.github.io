@@ -4,7 +4,7 @@ title: Category Index
 permalink: /categorias/index.html
 title: Categorias
 tags: [Categorias]
-description: "An archive of posts sorted by categories."
+description: "Todos os posts do blog organizados por categorias."
 
 ---
 
@@ -31,7 +31,7 @@ description: "An archive of posts sorted by categories."
       {% if group == null or group == post.group %}
       <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date">
       <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ post.date | date: "%d de" }}  
+        {{ post.date | date: "%d de" }}
         {% assign m = post.date | date: "%-m" %}
           {% case m %}
             {% when '1' %}Janeiro
