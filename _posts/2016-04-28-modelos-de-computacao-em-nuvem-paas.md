@@ -26,12 +26,12 @@ Aqui, será abordado o modelo que fica entre o SaaS (que será tratado em outra 
 
 ![Piramide]({{ site.url }}/images/posts/nuvem-piramide.jpg)
 
-###Definição
+### Definição
 
 É um modelo que fornece plataformas e ambientes utilizados no desenvolvimento de aplicações e serviços que serão distribuídos pela internet. Novamente, os serviços oferecidos nesse modelo são hospedados pelo provedor de serviços e acessados pelos usuários pela internet, comumente através de um navegador.
 
 
-###Responsabilidades
+### Responsabilidades
 
 Nesse modelo, além dos componentes básicos que compoe a infraestrutura (instalações físicas, equipamentos de rede, servidores físicos, storages, hypervisors), o provedor de serviços também é responsável pelas plataformas e ambientes utilizados no desenvolvimento e hospedagem de aplicações, incluindo itens como sistemas operacionais, ambientes de scripting server-side, sistemas de gerenciamento de bancos de dados, ferramentas de hospedagem de aplicações, entre outros.
 
@@ -39,7 +39,7 @@ O consumidor do serviço, aqui, é responsável apenas pelas aplicações desenv
 
 ![Responsabilidade-PaaS]({{ site.url }}/images/posts/responsabilidade-paas.png)
 
-###Benefícios
+### Benefícios
 
 Abaixo, alguns dos benefícios do modelo PaaS para desenvolvedores de aplicações.
 
