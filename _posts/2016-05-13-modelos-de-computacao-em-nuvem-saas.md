@@ -50,11 +50,8 @@ Não ter que gerenciar todas as camadas que compõe as aplicações torna os pro
 Outros benefícios do modelo são:
 
 - Pagamento simplificado - Ao invés de ter que comprar licenças de instalação e suporte de software e hardware, os consumidores precisam apenas se inscrever para utilizar as aplicações. O modelo SaaS segue a mesma forma de cobrança comum aos serviços de computação em nuvem, onde o consumidor paga apenas pelo que consome - comumente em cobranças mensais. Além disso, é possível encerrar a assinatura e deixar de utilizar e pagar pela aplicação a qualquer momento.
-
 - Escalabilidade - Assim como outros modelos, aplicações fornecidas no modelo SaaS oferecem alta escalabilidade, permitindo aos consumidores utilizarem mais ou menos recursos e características de acordo com a demanda.
-
 - Atualizações automáticas - Não há a necessidade de comprar novas versões das aplicações. O provedor de serviços é responsável por implementá-las e disponibilizá-las a todos os consumidores.
-
 - Acessibilidade - Por serem disponibilizadas via Internet e demandar somente um navegador web (normalmente), os clientes podem utilizar as aplicações de qualquer lugar, utilizando qualquer dispositivo com acesso à Internet.
 
 
