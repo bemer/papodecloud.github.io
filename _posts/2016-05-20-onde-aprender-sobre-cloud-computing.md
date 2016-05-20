@@ -143,18 +143,25 @@ Aqui, acho que a situação fica um pouco diferente. Pra melhor, acredito, já q
 Os próprios fornecedores de serviços em nuvem, ou de tecnologias relacionadas, fornecem boas informações. Alguns também com informações gerais aplicáveis a outros ambientes. Por exemplo:
 
 [Amazon - O que é AWS](https://aws.amazon.com/pt/what-is-aws/ "Amazon - O que é AWS")
+
 [Microsoft - Introducing Microsoft Azure](https://azure.microsoft.com/en-us/documentation/articles/fundamentals-introduction-to-azure/ "Microsoft - Introducing Microsoft Azure")
+
 [Red Hat - Computação em Nuvem](https://www.redhat.com/pt-br/technologies/cloud-computing "Red Hat - Computação em Nuvem")
+
 [Cisco - Cloud Solutions](http://www.cisco.com/c/en/us/solutions/cloud/overview.html "Cisco - Cloud Solutions")
+
 [VMware - Cloud Computing](http://www.vmware.com/br/cloud-computing/overview "VMware - Cloud Computing")
 
 ---
 
 Os blogs dos próprios fornecedores também são boas fontes de informações.
 
-[](https://aws.amazon.com/blogs/aws "Amazon - AWS Blog")
+[Amazon - AWS Blog](https://aws.amazon.com/blogs/aws "Amazon - AWS Blog")
+
 [Canonical - Ubuntu Cloud and Server](https://insights.ubuntu.com/cloud-and-server "Canonical - Ubuntu Cloud and Server")
+
 [Cisco - Cisco Blogs](http://blogs.cisco.com/cloud "Cisco - Cisco Blogs")
+
 [VMware - VMware Blogs](http://blogs.vmware.com "VMware - VMware Blogs")
 
 ---

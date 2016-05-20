@@ -1,19 +1,51 @@
 [
 	
 		{
+		  "title"      : "Onde aprender sobre cloud computing",
+		  "category"   : "FontesLivros",
+		  "url"        : "http://localhost:4000/blog/2016-05-20-onde-aprender-sobre-cloud-computing",
+		  "date"       : "2016-05-20 00:00:00 +0100",
+		  "shortdate"  : "May 20, 2016"
+		} ,
+	
+		{
+		  "title"      : "Modelos de computação em nuvem - SaaS",
+		  "category"   : "SaaSIntrodução",
+		  "url"        : "http://localhost:4000/blog/2016-05-13-modelos-de-computacao-em-nuvem-saas",
+		  "date"       : "2016-05-13 00:00:00 +0100",
+		  "shortdate"  : "May 13, 2016"
+		} ,
+	
+		{
+		  "title"      : "Modelos de computação em nuvem - PaaS",
+		  "category"   : "PaaSIntrodução",
+		  "url"        : "http://localhost:4000/blog/2016-04-28-modelos-de-computacao-em-nuvem-paas",
+		  "date"       : "2016-04-28 00:00:00 +0100",
+		  "shortdate"  : "April 28, 2016"
+		} ,
+	
+		{
 		  "title"      : "Modelos de computação em nuvem - IaaS",
 		  "category"   : "IaaSIntrodução",
-		  "url"        : "http://localhost:4000/blog/2016-04-08-modelos-de-computacao-em-nuvem-iaas",
-		  "date"       : "2016-04-08 00:00:00 +0100",
-		  "shortdate"  : "April 08, 2016"
+		  "url"        : "http://localhost:4000/blog/2016-04-26-modelos-de-computacao-em-nuvem-iaas",
+		  "date"       : "2016-04-26 00:00:00 +0100",
+		  "shortdate"  : "April 26, 2016"
+		} ,
+	
+		{
+		  "title"      : "Tipos de nuvem",
+		  "category"   : "ArtigosIntrodução",
+		  "url"        : "http://localhost:4000/blog/2016-04-20-tipos-de-nuvem",
+		  "date"       : "2016-04-20 00:00:00 +0100",
+		  "shortdate"  : "April 20, 2016"
 		} ,
 	
 		{
 		  "title"      : "O que é Cloud Computing?",
 		  "category"   : "ArtigosIntrodução",
-		  "url"        : "http://localhost:4000/blog/2016-04-05-o-que-e-cloud-computing",
-		  "date"       : "2016-04-05 00:00:00 +0100",
-		  "shortdate"  : "April 05, 2016"
+		  "url"        : "http://localhost:4000/blog/2016-04-18-o-que-e-cloud-computing",
+		  "date"       : "2016-04-18 00:00:00 +0100",
+		  "shortdate"  : "April 18, 2016"
 		} 
 	
 ]

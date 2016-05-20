@@ -2,12 +2,32 @@ callback([
 
   {
     "text": "O que é Cloud Computing?",
-    "href": "http://localhost:4000/blog/2016-04-05-o-que-e-cloud-computing"
+    "href": "http://localhost:4000/blog/2016-04-18-o-que-e-cloud-computing"
+  } ,
+
+  {
+    "text": "Tipos de nuvem",
+    "href": "http://localhost:4000/blog/2016-04-20-tipos-de-nuvem"
   } ,
 
   {
     "text": "Modelos de computação em nuvem - IaaS",
-    "href": "http://localhost:4000/blog/2016-04-08-modelos-de-computacao-em-nuvem-iaas"
+    "href": "http://localhost:4000/blog/2016-04-26-modelos-de-computacao-em-nuvem-iaas"
+  } ,
+
+  {
+    "text": "Modelos de computação em nuvem - PaaS",
+    "href": "http://localhost:4000/blog/2016-04-28-modelos-de-computacao-em-nuvem-paas"
+  } ,
+
+  {
+    "text": "Modelos de computação em nuvem - SaaS",
+    "href": "http://localhost:4000/blog/2016-05-13-modelos-de-computacao-em-nuvem-saas"
+  } ,
+
+  {
+    "text": "Onde aprender sobre cloud computing",
+    "href": "http://localhost:4000/blog/2016-05-20-onde-aprender-sobre-cloud-computing"
   } 
 
 ])

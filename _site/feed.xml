@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2016-04-08T18:09:16+01:00</updated>
+<updated>2016-05-20T20:47:38+01:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Papo de Cloud</name>
@@ -17,11 +17,285 @@
 
 
 <entry>
+  <title type="html"><![CDATA[Onde aprender sobre cloud computing]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-05-20-onde-aprender-sobre-cloud-computing"/>
+  <id>http://localhost:4000/blog/onde-aprender-sobre-cloud-computing</id>
+  <published>2016-05-20T00:00:00+01:00</published>
+  <updated>2016-05-20T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Papo de Cloud</name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#Livros" term="Livros" />
+  <content type="html">
+  
+    &lt;p&gt;Apesar de ser um assunto relativamente novo, já existe uma grande quantidade de conteúdo relacionado a cloud computing disponível. Não necessariamente em português, por isso estamos aqui.&lt;/p&gt;
+
+&lt;p&gt;De qualquer forma (e mesmo em outra língua), acredito ser importante deixar algumas recomendações de onde se pode aprender mais sobre o assunto. Afinal, essas são algumas das fontes que normalmente utilizo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;livros&quot;&gt;Livros&lt;/h1&gt;
+
+&lt;p&gt;A quantidade de livros disponíveis sobre cloud computing já é grande. Basta pesquisar pelo termo em qualquer loja online para comprovar.&lt;/p&gt;
+
+&lt;p&gt;Dos livros com caráter generalista, voltados para iniciantes, recomendo os seguintes:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;cloud-computing-concepts-technology--architecture&quot;&gt;Cloud Computing: Concepts, Technology &amp;amp; Architecture&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/cloud-thomas.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autores: Thomas Erl, Zaigham Mahmood e Ricardo Puttini&lt;/p&gt;
+
+&lt;p&gt;Fornece uma visão geral de computação em nuvem com diagramas conceituais ilustrando diferentes tipos de arquiteturas utilizadas nos dias atuais.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;architecting-the-cloud-design-decisions-for-cloud-computing-service-models-saas-paas--iaas&quot;&gt;Architecting the Cloud: Design Decisions for Cloud Computing Service Models (SaaS, PaaS, &amp;amp; IaaS)&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/architecting-michael.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autor: Michael J. Kavis&lt;/p&gt;
+
+&lt;p&gt;Também fornece visão geral de arquiteturas e modelos disponíveis.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Existem também livros sobre temas, tecnologias ou fornecedores específicos. Além dos preparatórios para certificações.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;building-the-infrastructure-for-cloud-security-a-solutions-view-experts-voice-in-internet-security&quot;&gt;Building the Infrastructure for Cloud Security: A Solutions View (Expert’s Voice in Internet Security)&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/building-raghuram.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autores: Raghuram Yeluri e Enrique Castro-Leon&lt;/p&gt;
+
+&lt;p&gt;Apesar de ser baseado em tecnologia Intel, esse ótimo livro contempla casos de uso, soluções e arquiteturas de referência do ponto de vista da segurança necessária em ambientes de nuvem, além de outros conceitos não tão comuns mas igualmente importantes, como gestão de geolocalização e designs de referência se segurança para nuvens híbridas.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;comptia-cloud-certification-study-guide&quot;&gt;CompTIA Cloud+ Certification Study Guide&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/comptia-nate.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autores: Nate Stammer e Scott Wilson&lt;/p&gt;
+
+&lt;p&gt;Preparatório para a certificaçào CompTIA Cloud+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;vcp-cloud-official-cert-guide-vmware-certified-professional---cloud&quot;&gt;VCP-Cloud Official Cert Guide: VMware Certified Professional - Cloud&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/vcp-tom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autores: Tom Ralph e Nathan Raper&lt;/p&gt;
+
+&lt;p&gt;Preparatório para a certificação VMware VCP-CLOUD&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;microsoft-azure-essentials---fundamentals-of-azure&quot;&gt;Microsoft Azure Essentials - Fundamentals of Azure&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/microsoft-michael.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autores: Michael Collier e Robin Shahan&lt;/p&gt;
+
+&lt;p&gt;Livro disponivel gratuitamente (pelo menos até a presente data), cobrindo todos so aspectos gerais do Microsoft Azure.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;ccna-cloud-cldfnd-210-451-official-cert-guide&quot;&gt;CCNA Cloud CLDFND 210-451 Official Cert Guide&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/ccna-gustavo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Autor:  Gustavo A. A. Santana&lt;/p&gt;
+
+&lt;p&gt;Preparatório para a certificação Cisco CCNA Cloud, anunciada recentemente.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;cursos-online&quot;&gt;Cursos online&lt;/h1&gt;
+
+&lt;p&gt;Plataformas de ensino online são uma ótima opção. Possuem uma abordagem um pouco mais parecida com uma aula presencial do que um livro, mas possuem a vantagem do ensino à distância e versatilidade de horário.&lt;/p&gt;
+
+&lt;p&gt;Alguns serviços geralmente bem avaliados são:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;pluralsighthttpswwwpluralsightcom-pluralsight&quot;&gt;&lt;a href=&quot;https://www.pluralsight.com&quot; title=&quot;Pluralsight&quot;&gt;Pluralsight&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Possui uma grande lista de cursos sobre as mais diversas áreas de TI, incluindo vários sobre tecnologias, conceitos e fornecedores de serviços de cloud computing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;cloud-academyhttpscloudacademycom-cloud-academy&quot;&gt;&lt;a href=&quot;https://cloudacademy.com&quot; title=&quot;Cloud Academy&quot;&gt;Cloud Academy&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Cursos com foco específico em alguns dos principais serviços de nuvem pública disponíveis atualmente (Amazon Web Services, Microsoft Azure, Google Cloud Platform)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;qwiklabshttpswwwqwiklabscom-qwiklabs&quot;&gt;&lt;a href=&quot;https://www.qwiklabs.com&quot; title=&quot;qwikLABS&quot;&gt;qwikLABS&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Plataforma de laboratórios online com foco específico em Amazon Web Services. Possui, inclusive, laboratórios preparatórios para certificações AWS.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;sites&quot;&gt;Sites&lt;/h1&gt;
+
+&lt;p&gt;Aqui, acho que a situação fica um pouco diferente. Pra melhor, acredito, já que a quantidade de conteúdo disponível é imensa. Ou talvez pra pior, já que existe também a dificuldade em filtrar aquilo que é realmente útil em meio a tantas opções.&lt;/p&gt;
+
+&lt;p&gt;Os próprios fornecedores de serviços em nuvem, ou de tecnologias relacionadas, fornecem boas informações. Alguns também com informações gerais aplicáveis a outros ambientes. Por exemplo:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/pt/what-is-aws/&quot; title=&quot;Amazon - O que é AWS&quot;&gt;Amazon - O que é AWS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/documentation/articles/fundamentals-introduction-to-azure/&quot; title=&quot;Microsoft - Introducing Microsoft Azure&quot;&gt;Microsoft - Introducing Microsoft Azure&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.redhat.com/pt-br/technologies/cloud-computing&quot; title=&quot;Red Hat - Computação em Nuvem&quot;&gt;Red Hat - Computação em Nuvem&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cisco.com/c/en/us/solutions/cloud/overview.html&quot; title=&quot;Cisco - Cloud Solutions&quot;&gt;Cisco - Cloud Solutions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.vmware.com/br/cloud-computing/overview&quot; title=&quot;VMware - Cloud Computing&quot;&gt;VMware - Cloud Computing&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Os blogs dos próprios fornecedores também são boas fontes de informações.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/aws&quot; title=&quot;Amazon - AWS Blog&quot;&gt;Amazon - AWS Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://insights.ubuntu.com/cloud-and-server&quot; title=&quot;Canonical - Ubuntu Cloud and Server&quot;&gt;Canonical - Ubuntu Cloud and Server&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blogs.cisco.com/cloud&quot; title=&quot;Cisco - Cisco Blogs&quot;&gt;Cisco - Cisco Blogs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blogs.vmware.com&quot; title=&quot;VMware - VMware Blogs&quot;&gt;VMware - VMware Blogs&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Por enquanto, as dicas de onde buscar informações são essas. Em breve teremos mais postagens do tipo.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-05-20-onde-aprender-sobre-cloud-computing&quot;&gt;Onde aprender sobre cloud computing&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on May 20, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Modelos de computação em nuvem - SaaS]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-05-13-modelos-de-computacao-em-nuvem-saas"/>
+  <id>http://localhost:4000/blog/modelos-de-computacao-em-nuvem-saas</id>
+  <published>2016-05-13T00:00:00+01:00</published>
+  <updated>2016-05-13T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Papo de Cloud</name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#introdu%C3%A7%C3%A3o" term="introdução" /><category scheme="http://localhost:4000/tags/#artigos" term="artigos" />
+  <content type="html">
+  
+    &lt;p&gt;Após abordarmos os modelos IaaS e PaaS, falaremos agora sobre o topo da pirâmide, de maior participação no mercado de computação em nuvem e também o de maior taxa de crescimento: o SaaS - Software as a Service (Software como Serviço, em português).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/nuvem-piramide.jpg&quot; alt=&quot;Piramide&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;definiao&quot;&gt;Definiçao&lt;/h3&gt;
+
+&lt;p&gt;Nesse modelo, aplicações gerenciadas pelos provedores de computação em nuvem são entregues aos consumidores via web. A maioria das aplicações entregues no modelo SaaS podem ser executadas diretamente de um navegador web, sem necessidade de downloads ou instalações.&lt;/p&gt;
+
+&lt;h3 id=&quot;responsabilidades&quot;&gt;Responsabilidades&lt;/h3&gt;
+
+&lt;p&gt;Aqui, o provedor de serviços é responsável por todas as camadas que compõe a aplicação. Instalações elétricas, hardware, SOs, hypevisors, bases de dados, interface de usuário, etc.&lt;/p&gt;
+
+&lt;p&gt;Ao consumidor só basta utilizar a aplicação - e pagar por ela, claro.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/responsabilidade-saas.png&quot; alt=&quot;Responsabilidade-SaaS&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;benefcios&quot;&gt;Benefícios&lt;/h3&gt;
+
+&lt;p&gt;Devido ao modelo de entrega de aplicações pela Internet, o modelo SaaS elimina a necessidade dos consumidores de instalar, gerenciar e executar as aplicações em servidores próprios (ou mesmo utilizando o modelo IaaS).&lt;/p&gt;
+
+&lt;p&gt;Não ter que gerenciar todas as camadas que compõe as aplicações torna os processos de manutenção e suporte dos consumidores extremamente simplificado.&lt;/p&gt;
+
+&lt;p&gt;Outros benefícios do modelo são:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pagamento simplificado - Ao invés de ter que comprar licenças de instalação e suporte de software e hardware, os consumidores precisam apenas se inscrever para utilizar as aplicações. O modelo SaaS segue a mesma forma de cobrança comum aos serviços de computação em nuvem, onde o consumidor paga apenas pelo que consome - comumente em cobranças mensais. Além disso, é possível encerrar a assinatura e deixar de utilizar e pagar pela aplicação a qualquer momento.&lt;/li&gt;
+  &lt;li&gt;Escalabilidade - Assim como outros modelos, aplicações fornecidas no modelo SaaS oferecem alta escalabilidade, permitindo aos consumidores utilizarem mais ou menos recursos e características de acordo com a demanda.&lt;/li&gt;
+  &lt;li&gt;Atualizações automáticas - Não há a necessidade de comprar novas versões das aplicações. O provedor de serviços é responsável por implementá-las e disponibilizá-las a todos os consumidores.&lt;/li&gt;
+  &lt;li&gt;Acessibilidade - Por serem disponibilizadas via Internet e demandar somente um navegador web (normalmente), os clientes podem utilizar as aplicações de qualquer lugar, utilizando qualquer dispositivo com acesso à Internet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;desvantagens&quot;&gt;Desvantagens&lt;/h3&gt;
+
+&lt;p&gt;Como nem tudo é perfeito, o modelo também apresenta desvantagens. Nele, os consumidores são obrigados a confiar nos fornecedores para manter as aplicações disponívels e atualizadas, calcular os custos dos recursos consumidos com precisão e manter as informações dos clientes num ambiente seguro e livre de falhas.&lt;/p&gt;
+
+&lt;p&gt;Provedores de serviços, aliás, que estão sempre suscetíveis a interrupções ou mudanças nos serviços oferecidos, vazamento de dados, falhas de segurança ou qualquer outra questão que impeça os consumidores de utilizar os serviços contratados.&lt;/p&gt;
+
+&lt;p&gt;Cabe aos consumidores avaliarem os benefícios e os riscos que o modelo (ou qualquer outro) traz, ficarem atentos aos aos contratos e SLAs e garantir que sejam cumpridos.&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-05-13-modelos-de-computacao-em-nuvem-saas&quot;&gt;Modelos de computação em nuvem - SaaS&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on May 13, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Modelos de computação em nuvem - PaaS]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-04-28-modelos-de-computacao-em-nuvem-paas"/>
+  <id>http://localhost:4000/blog/modelos-de-computacao-em-nuvem-paas</id>
+  <published>2016-04-28T00:00:00+01:00</published>
+  <updated>2016-04-26T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Papo de Cloud</name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#introdu%C3%A7%C3%A3o" term="introdução" /><category scheme="http://localhost:4000/tags/#artigos" term="artigos" />
+  <content type="html">
+  
+    &lt;p&gt;Aqui, será abordado o modelo que fica entre o SaaS (que será tratado em outra oportunidade) e IaaS: o PaaS – Platform as a Service (em português, Plataforma como Serviço):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/nuvem-piramide.jpg&quot; alt=&quot;Piramide&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;definio&quot;&gt;Definição&lt;/h3&gt;
+
+&lt;p&gt;É um modelo que fornece plataformas e ambientes utilizados no desenvolvimento de aplicações e serviços que serão distribuídos pela internet. Novamente, os serviços oferecidos nesse modelo são hospedados pelo provedor de serviços e acessados pelos usuários pela internet, comumente através de um navegador.&lt;/p&gt;
+
+&lt;h3 id=&quot;responsabilidades&quot;&gt;Responsabilidades&lt;/h3&gt;
+
+&lt;p&gt;Nesse modelo, além dos componentes básicos que compoe a infraestrutura (instalações físicas, equipamentos de rede, servidores físicos, storages, hypervisors), o provedor de serviços também é responsável pelas plataformas e ambientes utilizados no desenvolvimento e hospedagem de aplicações, incluindo itens como sistemas operacionais, ambientes de scripting server-side, sistemas de gerenciamento de bancos de dados, ferramentas de hospedagem de aplicações, entre outros.&lt;/p&gt;
+
+&lt;p&gt;O consumidor do serviço, aqui, é responsável apenas pelas aplicações desenvolvidas por ele utilizando as ferramentas fornecidas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/posts/responsabilidade-paas.png&quot; alt=&quot;Responsabilidade-PaaS&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;benefcios&quot;&gt;Benefícios&lt;/h3&gt;
+
+&lt;p&gt;Abaixo, alguns dos benefícios do modelo PaaS para desenvolvedores de aplicações.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sem necessidade de investimento em infraestrutura física; ser capaz de “alugar” infraestrutura virtual tem benefícios financeiros e práticos. Não existe a necessidade de comprar ou sequer gerenciar hardware, permitindo que os clientes foquem-se somente no desenvolvimento de aplicações.&lt;/li&gt;
+  &lt;li&gt;Torna o desenvolvimento de aplicações mais “simples”; algumas ofertas de PaaS simplificam e facilitam o desenvolvimento e a implementação de aplicações utilizando automações e funções “one-click”, permitindo que mesmo clientes menos experientes sejam capazes de utilizar os serviços fornecidos.&lt;/li&gt;
+  &lt;li&gt;Flexibilidade e adaptabilidade; os clientes podem escolher as ferramentas que desejam utilizar e criar ambientes personalizados para as necessidades específicas de cada aplicação, além de alterá-las se as circunstâncias exigirem.&lt;/li&gt;
+  &lt;li&gt;Colaboração em tempo real; normalmente, uma conexão à Internet e um navegador são tudo o que um cliente precisa para utilizar os serviços fornecidos, e clientes ao redor do mundo podem facilmente trabalhar juntos&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-04-28-modelos-de-computacao-em-nuvem-paas&quot;&gt;Modelos de computação em nuvem - PaaS&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on April 28, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Modelos de computação em nuvem - IaaS]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-04-08-modelos-de-computacao-em-nuvem-iaas"/>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-04-26-modelos-de-computacao-em-nuvem-iaas"/>
   <id>http://localhost:4000/blog/modelos-de-computacao-em-nuvem-iaas</id>
-  <published>2016-04-08T00:00:00+01:00</published>
-  <updated>2016-04-08T00:00:00-00:00</updated>
+  <published>2016-04-26T00:00:00+01:00</published>
+  <updated>2016-04-26T00:00:00-00:00</updated>
   
   <author>
     <name>Papo de Cloud</name>
@@ -70,16 +344,80 @@ Oferecer recursos facilmente escaláveis e que podem ser ajustados sob demanda t
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-04-08-modelos-de-computacao-em-nuvem-iaas&quot;&gt;Modelos de computação em nuvem - IaaS&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on April 08, 2016.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-04-26-modelos-de-computacao-em-nuvem-iaas&quot;&gt;Modelos de computação em nuvem - IaaS&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on April 26, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Tipos de nuvem]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-04-20-tipos-de-nuvem"/>
+  <id>http://localhost:4000/blog/tipos-de-nuvem</id>
+  <published>2016-04-20T00:00:00+01:00</published>
+  <updated>2016-04-20T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Papo de Cloud</name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <category scheme="http://localhost:4000/tags/#introdu%C3%A7%C3%A3o" term="introdução" /><category scheme="http://localhost:4000/tags/#artigos" term="artigos" />
+  <content type="html">
+  
+    &lt;p&gt;No post anterior, foi possível ter uma visão bem clara a respeito de o que é e para que serve a computação em nuvem. Porém, quando falamos em nuvem, é necessário entender que estamos falando em um conceito que segue algumas regras básicas, baseadas em elasticidade, autoatendimento, acessibilidade, entre outras.&lt;/p&gt;
+
+&lt;p&gt;Quando juntamos todas estas regras e pensamos em empresas utilizando estes recursos, podemos ter uma clara visão de que nem todas estas empresas irão se beneficiar da utilização da computação em nuvem da mesma forma, já que para uma empresa de um determinado segmento a utilização de tecnologias específicas faz mais sentido do que para outra. Sendo assim, podemos nos fazer a seguinte pergunta: Como empresas de diferentes segmentos podem, então, se beneficiar dos conceitos e das vantagens que a nuvem oferece? E a resposta para esta pergunta, apesar de parecer complexa, é relativamente simples: existem diferentes modelos de computação nuvem.&lt;/p&gt;
+
+&lt;p&gt;Quando falamos em “modelos”, estamos nos referindo a diferentes implementações dos recursos que entregarão os serviços e benefícios da nuvem. A seguir, vamos começar listando estes modelos e definindo seu funcionamento e suas principais características.&lt;/p&gt;
+
+&lt;h2 id=&quot;nuvem-pblica-public-cloud&quot;&gt;Nuvem Pública (Public Cloud)&lt;/h2&gt;
+
+&lt;p&gt;O conceito de Nuvem Pública é o mais difundido e utilizado atualmente. Uma nuvem pública é basicamente aquela em que os serviços são entregues por um provedor - chamado de Cloud Provider - e todos podem realizar a contratação dos serviços e utilização destes recursos. Um bom exemplo para maior entendimento do conceito de Nuvem Pública é a utilização do provedor de e-mails Gmail. O Gmail é uma aplicação executada nos servidores da Google, e acessível por todos os seus usuários, (inclusive eu) através da internet. Basicamente qualquer pessoa pode realizar a contratação deste serviço e utilizar os recursos computacionais dos datacenters da Google para realizar o envio e o recebimento de e-mails sem se preocupar com a estrutura necessária para isto, uma vez que esta preocupação é apenas da Google. Neste caso, a Google é o nosso Cloud Provider.&lt;/p&gt;
+
+&lt;p&gt;Um ponto importante a ser observado no conceito de nuvem pública, é que todas as ferramentas e recursos entregues por um Cloud Provider são padronizados e devem atender a todos os usuários e empresas da mesma maneira: todos os recursos que eu tenho disponíveis no meu Gmail você tem no seu, e todas as atualizações na plataforma atendem a todos os usuários.&lt;/p&gt;
+
+&lt;p&gt;Além disto, o modelo de nuvem pública deve sempre levar em conta a separação lógica dos dados dos clientes. O nome dado para o conceito desta separação dos dados baseada em clientes é multi-tenancy. Isto significa que mesmo utilizando os mesmos servidores que você para acessar, enviar, receber e armazenar meus e-mails, eu não conseguirei de forma nenhuma visualizar uma mensagem enviada para ou por você. Todos os provedores de nuvem pública devem possuir este conceito.&lt;/p&gt;
+
+&lt;h2 id=&quot;nuvem-privada-private-cloud&quot;&gt;Nuvem Privada (Private Cloud)&lt;/h2&gt;
+
+&lt;p&gt;Ok Bruno! Eu entendi o conceito de nuvem pública. Mas e se eu trabalhar em uma empresa com 5 mil funcionários e não quiser minha plataforma de e- mails nos servidores do Google, mas ainda assim, quiser disponibilizar recursos elásticos para meus usuários através de uma plataforma web onde eles mesmos poderão criar suas contas e gerenciar as propriedades de suas caixas postais sem que minha equipe de help-desk precise intervir?&lt;/p&gt;
+
+&lt;p&gt;Essa pode parecer uma pergunta um tanto quanto incomum, uma vez que existem soluções públicas para praticamente todos os tipos de serviços, porém não é! E, justamente para responder este questionamento e endereçar esta necessidade, existe o modelo de Nuvem Privada.&lt;/p&gt;
+
+&lt;p&gt;Uma Nuvem Privada deve ter os mesmos aspectos de uma nuvem pública, em relação a elasticidade, autossuficiência e acessibilidade, porém, toda a gestão de seus recursos (servidores, rede, armazenamento, segurança lógica e física) deve ser executada pela própria empresa que a possui, sendo que seus recursos serão utilizados apenas por seus funcionários.&lt;/p&gt;
+
+&lt;p&gt;Basicamente, é como se uma determinada empresa pudesse criar máquinas virtuais em seu datacenter para sua equipe de desenvolvimento da mesma forma que a AWS.&lt;/p&gt;
+
+&lt;h2 id=&quot;nuvem-comunitria-community-cloud&quot;&gt;Nuvem Comunitária (Community Cloud)&lt;/h2&gt;
+
+&lt;p&gt;A nuvem comunitária é um modelo muito específico de nuvem, que tem o propósito de atingir apenas a um determinado conjunto de organizações em um determinado segmento.&lt;/p&gt;
+
+&lt;p&gt;Em um exemplo prático:&lt;/p&gt;
+
+&lt;p&gt;Imagine que no Brasil temos 5 mil lojas de calçados, e que todas estas lojas utilizam um mesmo sistema que informa todas as medidas de cada numeração de sapato em todos os países. Este sistema é instalado em um servidor dentro das lojas, e cada loja deve possuir um servidor com sistema instalado.&lt;/p&gt;
+
+&lt;p&gt;A ideia da criação de uma nuvem comunitária é justamente instalar este sistema em um único ambiente (que pode até estar dentro de uma destas lojas) e permitir que todas as 5 mil lojas acessem este serviço através da internet.&lt;/p&gt;
+
+&lt;p&gt;Obviamente este é um exemplo fictício, mas que nos ajuda a entender o conceito de uma nuvem comunitária: uma estrutura que atende os interesses de um determinado grupo ou segmento no mercado.&lt;/p&gt;
+
+&lt;h2 id=&quot;nuvem-hbrida-hybrid-cloud&quot;&gt;Nuvem híbrida (Hybrid Cloud)&lt;/h2&gt;
+
+&lt;p&gt;Mas, e quando uma empresa deseja realizar a utilização de mais de um dos modelos anteriores em sua estrutura?&lt;/p&gt;
+
+&lt;p&gt;Imagine que uma determinada empresa de calçados que possui uma estrutura de nuvem privada deseja armazenar os backups de sua aplicação em um serviço de armazenamento externo como, por exemplo, o S3 da Amazon.&lt;/p&gt;
+
+&lt;p&gt;O que temos neste caso, é o conceito de nuvem híbrida, onde uma empresa realiza a utilização de dois diferentes modelos de nuvem - privada para a criação de seus servidores e pública para o armazenamento de seus backups - em uma estrutura unificada através de diferentes tecnologias que permitem a troca de informações entre os diferentes ambientes.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-04-20-tipos-de-nuvem&quot;&gt;Tipos de nuvem&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on April 20, 2016.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[O que é Cloud Computing?]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-04-05-o-que-e-cloud-computing"/>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2016-04-18-o-que-e-cloud-computing"/>
   <id>http://localhost:4000/blog/o-que-e-cloud-computing</id>
-  <published>2016-04-05T00:00:00+01:00</published>
-  <updated>2016-04-05T00:00:00-00:00</updated>
+  <published>2016-04-18T00:00:00+01:00</published>
+  <updated>2016-04-18T00:00:00-00:00</updated>
   
   <author>
     <name>Papo de Cloud</name>
@@ -99,30 +437,30 @@ Oferecer recursos facilmente escaláveis e que podem ser ajustados sob demanda t
 
 &lt;p&gt;Iniciamente, a ARPANet utilizava um protocolo denominado Network Control Protocol (NCP), porém mais tarde passou a utilizar o protocolo TCP/IP - que utilizamos até hoje.&lt;/p&gt;
 
-&lt;p&gt;Nos anos 70, após o surgimento das redes de computadores e daquilo que viria ser a internet, surge um novo modelo denominado Client-Server (ou Cliente-Servidor). Este novo modelo permitia a utilização de clientes, invés de terminais burros. Estes clientes eram computadores com menor poder de processamento do que os Mainframes de antigamente, e que podiam executar tarefas menores porém, através da rede, interagiam com servidores para a execução de tarefas específicas. O modelo client-server é utilizado até hoje na maior parte das empresas. Exemplos de situações em que utilizamos o modelo client-server é compartilhar uma planilha em um servidor de armazenamento para que outras pessoas possam ter acesso aos arquivos, ou publicar um site em um servidor web.&lt;/p&gt;
+&lt;p&gt;Nos anos 70, após o surgimento das redes de computadores e daquilo que viria ser a internet, surge um novo modelo denominado Client-Server (ou Cliente-Servidor). Este novo modelo permitia a utilização de clientes, ao invés de terminais burros. Estes clientes eram computadores com menor poder de processamento do que os Mainframes de antigamente, e que podiam executar tarefas menores porém, através da rede, interagiam com servidores para a execução de tarefas específicas. O modelo client-server é utilizado até hoje na maior parte das empresas. Exemplos de situações em que utilizamos o modelo client-server é compartilhar uma planilha em um servidor de armazenamento para que outras pessoas possam ter acesso aos arquivos, ou publicar um site em um servidor web.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;É importante observar, que ainda hoje tanto Mainframes, quanto soluções client-server são utilizadas, dependendo do caso. Bancos por exemplo, são grandes utilizadores de Mainframes para suas necessidades!&lt;/p&gt;
+  &lt;p&gt;É importante observar que, ainda hoje, tanto Mainframes quanto soluções client-server são utilizadas, dependendo do caso. Bancos, por exemplo, são grandes utilizadores de Mainframes para suas necessidades!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;A medida que as tecnologias e conceitos de redes de computadores passaram a evoluir, diversos dispositivos com diferentes finalidades foram fabricados e passaram a fazer parte do ecossistema das redes de computadores. Como podemos ver a seguir, desenhos de topologias de redes passaram a ficar cada vez mais complexos e com mais itens a serem acrescentados. Em 1995, começam a surgir desenhos de redes de computadores onde nuvens eram utilizadas para substituir componentes e camadas de redes, facilitando o entendimento das topologias e cenários para usuários não técnicos.&lt;/p&gt;
 
 &lt;p&gt;Sendo assim, computação em nuvem é apenas a utilização de desenhos de nuvens em topologias de rede afim de facilitar o entendimento dos desenhos e permitir que os desenhos fiquem mais bonitos e menos poluídos?  Não!&lt;/p&gt;
 
-&lt;p&gt;O conceito de computação em nuvem, consiste basicamente na junção dos modelos de Mainframe e Client-Server com a utilização da Internet.&lt;/p&gt;
+&lt;p&gt;O conceito de computação em nuvem consiste basicamente na junção dos modelos de Mainframe e Client-Server com a utilização da Internet.&lt;/p&gt;
 
 &lt;p&gt;Para ilustrar melhor, pense no Gmail. Você provavelmente tem (ou teve) uma conta de email no Gmail. Todas as vezes que você recebe ou envia um email, todo o processamento necessário para envio, recebimento e armazenamento está com o Google certo? Basicamente como os Mainframes dos anos 50. No entanto, para acessar estes serviços, você utiliza o seu computador como um client, correto? Da mesma forma que o modelo client-server.&lt;/p&gt;
 
 &lt;p&gt;Em outras palavras, quando falamos de computação em nuvem, estamos nos referindo a remover a execução de determinadas tarefas computacionais de nosso ambiente local (seja a empresa em que trabalhamos ou até mesmo tarefas pessoais, como o armazenamento do texto deste artigo) e utilizar a infra-estrutura de determinados provedores para tais atividades.&lt;/p&gt;
 
-&lt;p&gt;Outro ponto importante da computação em nuvem, é que ela deve funcionar como um serviço para você ou sua empresa. Para exemplificar ainda mais: você consome energia elétrica, certo? E você paga pela energia elétrica que você consumiu, correto? No entanto, você não precisa se preocupar em gerar esta energia elétrica, ou em manter toda a infra-estrutura necessária que envolve redes de transmissão, hidrelétricas, e todos os demais componentes. Você simplesmente conecta seu computador na tomada e ele funciona. Quando falamos na compra de energia elétrica, estamos falando sobre a contratação de um serviço, pelo qual você paga de acordo com o uso. Cloud Computing funciona da mesma forma. Você não precisa se preocupar com a manutenção dos servidores, o storage, a rede, o link de acesso a internet para estes servidores, o datacenter em que eles ficam, o ar condicionado necessário para que eles funcionem adequadamente ou até mesmo com os dispositivos de segurança contra incêndio necessários. Você apenas cria sua conta no Gmail e o Google toma conta de tudo isso para você.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante da computação em nuvem é que ela deve funcionar como um serviço para você ou sua empresa. Para exemplificar ainda mais: você consome energia elétrica, certo? E você paga pela energia elétrica que você consumiu, correto? No entanto, você não precisa se preocupar em gerar esta energia elétrica, ou em manter toda a infra-estrutura necessária que envolve redes de transmissão, hidrelétricas, e todos os demais componentes. Você simplesmente conecta seu computador na tomada e ele funciona. Quando falamos na compra de energia elétrica, estamos falando sobre a contratação de um serviço, pelo qual você paga de acordo com o uso. Cloud Computing funciona da mesma forma. Você não precisa se preocupar com a manutenção dos servidores, o storage, a rede, o link de acesso a internet para estes servidores, o datacenter em que eles ficam, o ar condicionado necessário para que eles funcionem adequadamente ou, até mesmo, com os dispositivos de segurança contra incêndio necessários. Você apenas cria sua conta no Gmail e o Google toma conta de tudo isso para você.&lt;/p&gt;
 
 &lt;p&gt;O Gmail é um bom exemplo da utilização de Cloud Computing, porém não é o único. Existem inúmeras soluções de softwares pagas e gratuitas em nuvem. Para citar alguns exemplos, temos a SalesForce, Netflix, iCloud, Dropbox, além de muitas outras aplicações para as mais variadas finalidades.&lt;/p&gt;
 
-&lt;p&gt;Ainda existem diversos pontos a serem explorados quando falamos sobre Cloud Computing. Entre eles ainda temos os diferentes tipos de Cloud (pública, privada, híbrida) e os diferentes modelos (SaaS, IaaS, Paas), mas estes ficam para os próximos posts.&lt;/p&gt;
+&lt;p&gt;Ainda existem diversos pontos a serem explorados quando falamos sobre Cloud Computing. Entre eles, ainda temos os diferentes tipos de Cloud (pública, privada, híbrida) e os diferentes modelos (SaaS, IaaS, Paas), mas estes ficam para os próximos posts.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-04-05-o-que-e-cloud-computing&quot;&gt;O que é Cloud Computing?&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on April 05, 2016.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2016-04-18-o-que-e-cloud-computing&quot;&gt;O que é Cloud Computing?&lt;/a&gt; was originally published by Papo de Cloud at &lt;a href=&quot;http://localhost:4000&quot;&gt;Papo de Cloud&lt;/a&gt; on April 18, 2016.&lt;/p&gt;</content>
 </entry>
 
 </feed>

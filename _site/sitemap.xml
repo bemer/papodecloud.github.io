@@ -41,14 +41,34 @@
         <loc>http://localhost:4000/sobre/index.html</loc>
     </url>
     
+    <url>
+        <loc>http://localhost:4000/pagina2/</loc>
+    </url>
+    
 
     
     <url>
-        <loc>http://localhost:4000/blog/2016-04-08-modelos-de-computacao-em-nuvem-iaas</loc>
+        <loc>http://localhost:4000/blog/2016-05-20-onde-aprender-sobre-cloud-computing</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/blog/2016-04-05-o-que-e-cloud-computing</loc>
+        <loc>http://localhost:4000/blog/2016-05-13-modelos-de-computacao-em-nuvem-saas</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/blog/2016-04-28-modelos-de-computacao-em-nuvem-paas</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/blog/2016-04-26-modelos-de-computacao-em-nuvem-iaas</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/blog/2016-04-20-tipos-de-nuvem</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/blog/2016-04-18-o-que-e-cloud-computing</loc>
     </url>
     
 </urlset>
