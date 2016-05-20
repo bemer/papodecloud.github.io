@@ -156,13 +156,13 @@ Os próprios fornecedores de serviços em nuvem, ou de tecnologias relacionadas,
 
 Os blogs dos próprios fornecedores também são boas fontes de informações.
 
-![Amazon - AWS Blog](https://aws.amazon.com/blogs/aws "Amazon - AWS Blog")
+[](https://aws.amazon.com/blogs/aws "Amazon - AWS Blog")
 
-![Canonical - Ubuntu Cloud and Server](https://insights.ubuntu.com/cloud-and-server "Canonical - Ubuntu Cloud and Server")
+[Canonical - Ubuntu Cloud and Server](https://insights.ubuntu.com/cloud-and-server "Canonical - Ubuntu Cloud and Server")
 
-![Cisco - Cisco Blogs](http://blogs.cisco.com/cloud "Cisco - Cisco Blogs")
+[Cisco - Cisco Blogs](http://blogs.cisco.com/cloud "Cisco - Cisco Blogs")
 
-![VMware - VMware Blogs](http://blogs.vmware.com "VMware - VMware Blogs")
+[VMware - VMware Blogs](http://blogs.vmware.com "VMware - VMware Blogs")
 
 ---
 
