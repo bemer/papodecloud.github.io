@@ -142,7 +142,7 @@ Aqui, acho que a situação fica um pouco diferente. Pra melhor, acredito, já q
 
 Os próprios fornecedores de serviços em nuvem, ou de tecnologias relacionadas, fornecem boas informações. Alguns também com informações gerais aplicáveis a outros ambientes. Por exemplo:
 
-[Amazon - O que é AWS](https://aws.amazon.com/pt/what-is-aws/)
+[Amazon - O que é AWS](https://aws.amazon.com/pt/what-is-aws/ "Amazon - O que é AWS")
 
 [Microsoft - Introducing Microsoft Azure](https://azure.microsoft.com/en-us/documentation/articles/fundamentals-introduction-to-azure/)
 
