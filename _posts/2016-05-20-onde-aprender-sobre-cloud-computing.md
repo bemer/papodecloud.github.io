@@ -5,7 +5,7 @@ description: "Dicas de fontes de pesquisa"
 modified: 2016-05-20
 category: [Fontes, Livros]
 tags: [Livros]
-imagefeature:
+imagefeature: posts/livro.jpg
 comments: true
 share: true
 featured: false
